@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" fill="none">
+  <title>团团 · 熊猫掌柜</title>
+  <path d="M38 133C18 86 63 43 103 51C147 21 213 62 206 113C232 157 200 209 151 207C106 232 46 215 43 174Z" fill="#E7EBCF"/>
+  <g transform="translate(18 -7) scale(.92)">
+<title>团团 · 熊猫掌柜</title>
+  <ellipse cx="110" cy="242" rx="62" ry="9" fill="#718567" opacity=".14"/>
+  <g stroke="#4C6145" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M80 207L75 232Q83 244 101 236L101 216M119 216L119 236Q137 244 146 232L141 207" fill="#526354"/>
+    <path d="M77 143C61 160 58 190 70 214Q110 239 151 214C163 190 158 161 144 143" fill="#FBF0D4"/>
+    <path d="M77 149L91 145L98 169L123 169L130 145L144 150L148 217Q110 229 72 217Z" fill="#88A68C"/>
+    <path d="M96 188H124L122 204Q110 211 98 204Z" fill="#B9C8A0" stroke-width="2.3"/>
+    <path d="M105 196Q109 189 115 195Q116 201 109 202" stroke="#F7E7BB" stroke-width="2.8"/>
+    <path d="M76 157C61 153 49 170 53 184Q60 195 72 185L79 172M144 157C159 153 171 170 167 184Q160 195 148 185L141 172" fill="#526354"/>
+    <path d="M64 65C45 61 45 37 62 34C76 31 87 43 81 57M139 56C133 41 148 28 163 36C178 44 173 64 155 66" fill="#526354"/>
+    <path d="M55 103C48 75 65 50 109 49C151 47 173 73 167 101C177 127 154 151 111 151C70 151 46 130 55 103Z" fill="#FCF2D9"/>
+    <path d="M72 87C78 74 96 74 99 88C102 100 88 114 77 109C68 106 66 97 72 87ZM148 87C142 74 124 74 121 88C118 100 132 114 143 109C152 106 154 97 148 87Z" fill="#5B6B5B" stroke="none"/>
+    <path d="M79 94Q85 88 91 94M130 94Q136 88 142 94" stroke="#FCF4DF" stroke-width="3.3"/>
+    <path d="M102 109Q110 103 118 109L111 117Z" fill="#526354" stroke="none"/>
+    <path d="M100 124Q110 133 121 123" stroke-width="2.8"/>
+    <ellipse cx="72" cy="118" rx="9" ry="5" fill="#D9AB8D" stroke="none"/>
+    <ellipse cx="149" cy="118" rx="9" ry="5" fill="#D9AB8D" stroke="none"/>
+    <path d="M85 51L85 38Q92 31 101 38Q103 23 116 26Q126 25 130 38Q138 33 143 40L138 54Z" fill="#F7E8BE" stroke-width="2.7"/>
+    <path d="M87 50Q111 44 137 52" stroke="#C8B284" stroke-width="2"/>
+  </g>
+  </g>
+  <path d="M39 104L42 114L52 117L42 120L39 130L36 120L26 117L36 114Z" fill="#D3AE60"/>
+  <path d="M195 143L197 150L204 152L197 154L195 161L193 154L186 152L193 150Z" fill="#D3AE60"/>
+  <circle cx="195" cy="92" r="3" fill="#B5BC86"/>
+</svg>

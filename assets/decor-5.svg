@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" fill="none">
+  <defs><linearGradient id="plaque" x1="80" y1="46" x2="80" y2="107" gradientUnits="userSpaceOnUse"><stop stop-color="#D9B480"/><stop offset="1" stop-color="#BC905C"/></linearGradient></defs>
+  <ellipse cx="80" cy="131" rx="58" ry="6" fill="#465E40" opacity=".1"/>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M44 50L47 20M116 49L112 19" stroke="#AC8B56" stroke-width="3"/>
+    <path d="M39 25L54 25M105 24L120 24" stroke="#907148" stroke-width="4"/>
+    <path d="M34 43L126 43C126 49 133 52 142 51L142 103C133 102 126 105 126 112H34C34 105 27 102 18 103V51C27 52 34 49 34 43Z" fill="#8E704B" stroke="#715B40" stroke-width="2.5"/>
+    <path d="M37 49H123Q124 58 136 57V96Q124 96 122 106H37Q35 96 24 96V57Q35 57 37 49Z" fill="url(#plaque)" stroke="#E4C48E" stroke-width="2"/>
+    <path d="M36 59Q41 55 47 57M117 99Q126 97 126 89M36 89Q33 96 42 99M113 55Q127 56 128 62" stroke="#B08450" stroke-width="1.5"/>
+    <path d="M56 58Q62 51 68 57Q76 45 83 55Q91 49 97 57Q104 54 108 61H55" fill="#E7C58B" stroke="#AB8451" stroke-width="1.5"/>
+    <path d="M55 96Q64 92 69 95Q77 103 85 96Q92 90 102 95" stroke="#E6C78E" stroke-width="2"/>
+    <circle cx="30" cy="76" r="2.5" fill="#E6C68C" stroke="#8E704B" stroke-width="1"/>
+    <circle cx="130" cy="76" r="2.5" fill="#E6C68C" stroke="#8E704B" stroke-width="1"/>
+  </g>
+  <text x="80" y="85" text-anchor="middle" fill="#536345" font-family="STKaiti, KaiTi, Noto Serif SC, serif" font-size="20" font-weight="600" letter-spacing="1">山海食谱铺</text>
+  <path d="M26 117L28 122L33 124L28 126L26 131L24 126L19 124L24 122Z" fill="#C1A262" opacity=".7"/>
+  <path d="M134 24L136 30L142 32L136 34L134 40L132 34L126 32L132 30Z" fill="#C1A262" opacity=".7"/>
+</svg>

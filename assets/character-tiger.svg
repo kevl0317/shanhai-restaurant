@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="260" viewBox="0 0 220 260" fill="none">
+  <title>阿寅 · 老虎</title>
+  <ellipse cx="112" cy="242" rx="65" ry="9" fill="#718567" opacity=".14"/>
+  <g stroke="#4C6145" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M144 210C173 224 193 205 182 188C176 179 179 171 187 174C207 189 199 220 182 229Q162 240 141 224Z" fill="#D9AE69"/>
+    <path d="M180 192L192 189M181 213L191 219M164 219L165 232" stroke="#776846" stroke-width="6"/>
+    <path d="M73 207L69 234Q80 244 98 236L98 216M119 216L119 237Q137 244 147 233L141 207" fill="#E4BA77"/>
+    <path d="M75 143C60 162 58 193 69 215Q109 234 149 215C160 192 154 161 140 143" fill="#E1B46D"/>
+    <path d="M82 148L93 169H125L135 147L146 155L146 219Q109 230 72 217L72 155Z" fill="#B97B5A"/>
+    <path d="M98 190H125L122 206Q110 211 100 205Z" fill="#DCAB75" stroke-width="2.3"/>
+    <path d="M74 159C58 155 47 173 51 185Q58 197 71 185L78 173M146 159C162 155 173 173 169 185Q162 197 149 185L142 173" fill="#E4BA77"/>
+    <path d="M55 170L66 175M58 183L64 181M154 175L165 170M156 181L162 183" stroke="#786745" stroke-width="3.5"/>
+    <path d="M62 70C43 69 42 46 57 40C72 34 86 47 79 61M141 61C135 46 147 35 162 42C177 49 171 69 156 71" fill="#DFB16D"/>
+    <path d="M56 53Q63 45 71 55M149 54Q157 47 164 56" stroke="#EED6A7" stroke-width="6"/>
+    <path d="M55 105C48 79 68 54 109 54C150 52 171 78 165 105L171 115L163 119L165 128L154 131C137 153 80 152 64 132L53 133L56 122L48 117Z" fill="#E6BE7B"/>
+    <path d="M93 68L126 68M98 78H121M92 89H128M110 66V90" stroke="#6D6545" stroke-width="3.5"/>
+    <path d="M54 89L68 94L58 98M53 111L70 114L59 122M162 88L149 94L160 99M166 110L149 114L160 122" fill="#786848" stroke="none"/>
+    <path d="M76 101L77 102M142 101L143 102" stroke-width="5"/>
+    <path d="M79 119C83 108 98 108 109 115C121 107 137 110 140 121C144 139 120 145 109 135C96 147 73 137 79 119Z" fill="#F8E8BF" stroke="none"/>
+    <path d="M100 114Q109 109 118 114L110 122Z" fill="#936E50" stroke="none"/>
+    <path d="M110 122V128M100 129Q110 137 120 128" stroke-width="2.6"/>
+    <ellipse cx="73" cy="118" rx="7" ry="4" fill="#CD9970" stroke="none"/><ellipse cx="146" cy="118" rx="7" ry="4" fill="#CD9970" stroke="none"/>
+    <path d="M73 230L86 232M134 232L145 230" stroke="#816E49" stroke-width="3.8"/>
+    <path d="M88 147L107 154L95 165L82 154Z" fill="#E5C48C" stroke-width="2.5"/>
+    <path d="M109 154L130 146L139 155L123 164Z" fill="#E5C48C" stroke-width="2.5"/>
+    <circle cx="109" cy="157" r="5" fill="#F2D9A5" stroke-width="2"/>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" fill="none">
+  <defs><linearGradient id="jade" x1="63" y1="58" x2="99" y2="102" gradientUnits="userSpaceOnUse"><stop stop-color="#BCD0B5"/><stop offset="1" stop-color="#799E89"/></linearGradient></defs>
+  <ellipse cx="80" cy="146" rx="38" ry="5" fill="#465E40" opacity=".1"/>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M79 10L79 53" stroke="#A78B58" stroke-width="2.5"/>
+    <path d="M79 19C66 11 66 30 79 25C93 30 93 10 79 19Z" fill="#BCA273" stroke="#927A50" stroke-width="2"/>
+    <circle cx="79" cy="40" r="4" fill="#D4BA81" stroke="#927A50" stroke-width="2"/>
+    <path d="M34 81C53 53 82 49 106 70L129 56L122 79L131 103L107 92C85 112 54 109 34 81Z" fill="url(#jade)" stroke="#517961" stroke-width="2.5"/>
+    <path d="M62 57Q79 33 94 59M72 105L84 117L94 103" fill="#96B49A" stroke="#517961" stroke-width="2"/>
+    <path d="M56 62Q73 80 57 101" stroke="#648A6C" stroke-width="2"/>
+    <circle cx="49" cy="80" r="4" fill="#416850"/>
+    <circle cx="48" cy="79" r="1.2" fill="#F8F2DA"/>
+    <path d="M36 85L43 86M76 69Q87 77 76 86M87 75Q98 83 87 91M101 71Q113 80 102 90" stroke="#D4E0C2" stroke-width="2.5"/>
+    <path d="M47 66Q58 57 69 58" stroke="#E3EBCE" stroke-width="3"/>
+    <path d="M83 113V126M76 127H90M78 130L73 142M82 130L80 146M86 130L87 145M90 130L94 142" stroke="#A68B55" stroke-width="2.5"/>
+  </g>
+  <path d="M28 39L30 45L36 47L30 49L28 55L26 49L20 47L26 45Z" fill="#B9AA6A" opacity=".7"/>
+  <circle cx="133" cy="118" r="3" fill="#9CAC7C" opacity=".8"/>
+</svg>

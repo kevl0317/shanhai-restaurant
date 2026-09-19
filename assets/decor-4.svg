@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" fill="none">
+  <defs><linearGradient id="pot" x1="80" y1="94" x2="80" y2="137" gradientUnits="userSpaceOnUse"><stop stop-color="#97AEA0"/><stop offset="1" stop-color="#6E9584"/></linearGradient></defs>
+  <ellipse cx="81" cy="141" rx="50" ry="7" fill="#465E40" opacity=".1"/>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M78 103C67 73 58 66 45 60M77 103C97 75 106 62 114 46M80 104L79 47" stroke="#6A895A" stroke-width="3"/>
+    <path d="M75 61C49 59 50 34 66 24C82 13 107 25 105 40C105 54 91 62 83 61L79 45Z" fill="#9DB583" stroke="#617F50" stroke-width="2.5"/>
+    <path d="M79 45L64 32M79 45L95 32M79 45L97 48M79 45L64 51" stroke="#CFD9A4" stroke-width="1.5"/>
+    <path d="M45 73C21 76 18 55 29 45C42 34 62 41 65 56C66 68 52 75 46 72L43 58Z" fill="#88A575" stroke="#617F50" stroke-width="2.5"/>
+    <path d="M43 58L28 52M43 58L49 45M43 58L58 59M43 58L32 67" stroke="#CCD5A0" stroke-width="1.5"/>
+    <path d="M110 66C93 62 90 43 106 34C123 25 140 39 135 53C132 64 120 70 114 67L115 51Z" fill="#789B6A" stroke="#587D4D" stroke-width="2.5"/>
+    <path d="M115 51L104 40M115 51L129 41M115 51L127 58M115 51L102 54" stroke="#C4D19B" stroke-width="1.5"/>
+    <path d="M98 100L108 82" stroke="#739260" stroke-width="2"/>
+    <path d="M107 84Q95 78 101 65Q108 67 111 75Q114 66 119 67Q124 80 107 84Z" fill="#E3B79E" stroke="#AD8770" stroke-width="2"/>
+    <path d="M31 97L38 126Q79 148 122 127L130 98Z" fill="url(#pot)" stroke="#557865" stroke-width="2.5"/>
+    <ellipse cx="80" cy="98" rx="49" ry="13" fill="#B7C6AE" stroke="#557865" stroke-width="2.5"/>
+    <ellipse cx="80" cy="98" rx="41" ry="8" fill="#748F77" stroke="#6A8A70" stroke-width="1.5"/>
+    <path d="M42 115Q78 130 119 115M50 127Q80 139 110 127" stroke="#BED0B7" stroke-width="2"/>
+    <path d="M61 99Q69 94 75 99M90 102Q98 98 105 100" stroke="#B6C7A6" stroke-width="1.5"/>
+  </g>
+</svg>

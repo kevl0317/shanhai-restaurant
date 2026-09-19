@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="260" viewBox="0 0 220 260" fill="none">
+  <title>云生 · 龙</title>
+  <ellipse cx="111" cy="242" rx="68" ry="9" fill="#718567" opacity=".14"/>
+  <g stroke="#4C6145" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M137 208C160 223 184 216 188 196C190 185 181 183 176 189C168 190 169 181 177 176C190 166 208 182 202 201C197 228 170 242 139 225Z" fill="#A5BA91"/>
+    <path d="M178 179L178 171L186 173L192 165L197 175L205 178L202 186" fill="#DCC287" stroke-width="2.5"/>
+    <path d="M76 209L72 233Q84 244 99 236L99 215M121 215L120 236Q137 244 148 233L142 209" fill="#AFC19A"/>
+    <path d="M78 143C62 162 59 192 71 216Q110 236 149 215C162 192 155 161 141 143" fill="#A7BB91"/>
+    <path d="M91 149Q110 157 130 149L137 205Q110 223 83 206Z" fill="#F1DBA5" stroke-width="2.5"/>
+    <path d="M91 173Q109 180 130 173M88 186Q109 194 133 186M87 199Q110 207 135 199" stroke="#C6AE79" stroke-width="2"/>
+    <path d="M74 159C58 155 47 173 51 186Q58 197 72 185L79 173M146 159C162 155 174 173 170 186Q163 197 149 185L141 173" fill="#AFC199"/>
+    <path d="M56 185L60 181M63 188L66 183M157 188L154 183M164 185L160 181" stroke="#DCE4BC" stroke-width="2"/>
+    <path d="M75 63C64 49 64 30 70 24L78 30L76 43L89 48L86 62M139 61L136 45L150 39L149 25L158 21C165 37 158 54 153 65" fill="#D9BC83"/>
+    <path d="M61 86L46 73L50 99L40 111L53 116L47 132L65 136M157 85L173 73L169 98L181 110L168 117L174 131L154 139" fill="#D4B979" stroke-width="2.5"/>
+    <path d="M58 107C51 79 69 58 109 57C150 55 170 78 163 106C173 132 149 150 111 150C73 151 48 134 58 107Z" fill="#B7C79E"/>
+    <path d="M79 86Q88 81 95 87M127 86Q135 80 143 85" stroke="#829B73" stroke-width="3"/>
+    <path d="M81 100L82 101M139 99L140 100" stroke-width="5"/>
+    <path d="M83 116C83 103 98 104 110 110C122 103 137 104 140 117C146 134 130 144 111 142C92 143 76 134 83 116Z" fill="#ECE0B4" stroke-width="2.7"/>
+    <path d="M99 117L100 118M122 117L123 118" stroke="#7C8C63" stroke-width="3"/>
+    <path d="M101 131Q111 137 122 130" stroke-width="2.5"/>
+    <path d="M87 126C70 120 63 131 51 128C43 126 39 119 44 116M135 126C150 121 161 133 174 127C181 124 182 118 178 116" stroke="#998450" stroke-width="2.3"/>
+    <path d="M101 147L96 155L108 153L116 161L120 149" fill="#DCC48B" stroke-width="2.3"/>
+    <ellipse cx="73" cy="114" rx="7" ry="4" fill="#CDAF87" stroke="none"/><ellipse cx="149" cy="113" rx="7" ry="4" fill="#CDAF87" stroke="none"/>
+    <path d="M73 211Q110 222 147 211L146 222Q110 233 73 222Z" fill="#BC7D5C" stroke-width="2.3"/>
+    <path d="M78 235L81 230M88 237L90 232M132 237L130 232M142 235L139 230" stroke="#E4E6BD" stroke-width="2"/>
+  </g>
+</svg>

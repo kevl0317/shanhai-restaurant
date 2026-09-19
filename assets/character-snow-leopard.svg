@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="260" viewBox="0 0 220 260" fill="none">
+  <title>小霁 · 雪豹</title>
+  <ellipse cx="112" cy="242" rx="71" ry="9" fill="#718567" opacity=".14"/>
+  <g stroke="#4C6145" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M142 207C171 224 194 211 191 185C188 168 181 153 191 151C206 149 214 184 206 207C197 235 168 239 142 226Z" fill="#E1E0C9"/>
+    <path d="M187 172L201 168M192 188L207 188M191 207L203 214M173 218L179 232M155 215L152 230" stroke="#8F9A86" stroke-width="7"/>
+    <path d="M73 206L68 233Q79 244 96 236L97 216M117 216L118 236Q134 244 145 233L140 206" fill="#EFEDDC"/>
+    <path d="M73 143C58 161 57 194 69 215Q108 233 147 215C157 191 153 161 138 143" fill="#E8E6D3"/>
+    <path d="M78 154L91 166L121 166L132 153L140 160L143 218Q108 231 70 216L73 164Z" fill="#D8C691"/>
+    <path d="M96 188H121L119 204Q109 209 98 203Z" fill="#F2E5BF" stroke-width="2.3"/>
+    <path d="M73 159C57 155 45 174 49 186Q56 198 69 186L76 173M143 159C159 155 171 174 167 186Q160 198 147 186L140 173" fill="#E9E8D5"/>
+    <path d="M57 174L64 171M155 171L162 174" stroke="#929D89" stroke-width="4"/>
+    <path d="M61 72C42 68 43 43 61 40C74 38 84 49 78 63M137 62C133 46 146 35 159 43C173 51 168 69 153 72" fill="#E2E3D1"/>
+    <path d="M57 54Q63 47 69 55M147 54Q154 48 160 57" stroke="#B5B9A3" stroke-width="5"/>
+    <path d="M53 106C47 77 68 57 107 56C147 55 170 78 163 106L169 116L161 119L164 128L153 130C137 152 79 154 63 133L53 134L55 124L47 119Z" fill="#F0EFDC"/>
+    <path d="M91 66L89 72L98 75M120 66L122 73L114 76M62 87L68 82L74 87L70 94M145 84L151 88L146 95L139 91M57 109L63 105L67 111M151 109L157 113L150 118" stroke="#919C88" stroke-width="4.2"/>
+    <path d="M79 100L80 101M134 100L135 101" stroke-width="5"/>
+    <path d="M98 112Q108 106 118 112L108 121Z" fill="#A28678" stroke="none"/>
+    <path d="M99 128Q108 135 118 128" stroke-width="2.6"/>
+    <path d="M66 117L76 120M65 125L76 125M140 119L151 115M141 125L152 124" stroke="#9BA18A" stroke-width="1.8"/>
+    <ellipse cx="74" cy="117" rx="7" ry="4" fill="#D6B39A" stroke="none"/><ellipse cx="142" cy="117" rx="7" ry="4" fill="#D6B39A" stroke="none"/>
+    <path d="M76 146Q107 160 138 146L140 158Q109 173 75 157Z" fill="#BC795A" stroke-width="2.5"/>
+    <path d="M125 162L139 164L137 187L124 182Z" fill="#CD8C65" stroke-width="2.5"/>
+    <path d="M77 234L79 230M85 236L86 231M128 236L127 231M137 234L135 230" stroke="#AAB09A" stroke-width="2"/>
+  </g>
+</svg>

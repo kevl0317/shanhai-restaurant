@@ -1,0 +1,258 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="600" y1="0" x2="600" y2="680" gradientUnits="userSpaceOnUse"><stop stop-color="#EEF0DD"/><stop offset="1" stop-color="#F7F1DF"/></linearGradient>
+    <linearGradient id="mountain" x1="777" y1="155" x2="777" y2="473" gradientUnits="userSpaceOnUse"><stop stop-color="#A7BDA1"/><stop offset="1" stop-color="#D9DDC3"/></linearGradient>
+    <linearGradient id="wood" x1="777" y1="367" x2="777" y2="535" gradientUnits="userSpaceOnUse"><stop stop-color="#BE8452"/><stop offset="1" stop-color="#A66840"/></linearGradient>
+    <linearGradient id="roof" x1="806" y1="188" x2="806" y2="289" gradientUnits="userSpaceOnUse"><stop stop-color="#6D9478"/><stop offset="1" stop-color="#3F6A53"/></linearGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".65" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".045"/></feComponentTransfer><feBlend in="SourceGraphic" mode="multiply"/></filter>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="160%"><feDropShadow dx="0" dy="9" stdDeviation="10" flood-color="#425A37" flood-opacity=".11"/></filter>
+    <pattern id="tiles" width="43" height="29" patternUnits="userSpaceOnUse" patternTransform="rotate(4)"><path d="M0 0Q21 18 43 0M0 28Q21 45 43 28" stroke="#B4C4A0" stroke-width="2" opacity=".5"/></pattern>
+    <clipPath id="roofClip"><path d="M648 205Q698 196 743 165L974 176Q994 224 1052 258Q1001 284 937 286L616 257Q637 240 648 205Z"/></clipPath>
+    <clipPath id="pandaCounter"><path d="M715 260H864V393L715 383Z"/></clipPath>
+  </defs>
+  <rect width="1200" height="680" rx="28" fill="url(#sky)"/>
+  <g opacity=".8">
+    <circle cx="996" cy="106" r="43" fill="#E6C47B" opacity=".6"/>
+    <path d="M402 360C454 323 454 217 500 232C541 248 548 147 589 168C635 191 633 81 680 124C710 154 734 271 775 313L803 393Z" fill="#D4DDC7"/>
+    <path d="M701 363C737 321 767 217 796 224C833 231 858 120 895 129C928 137 960 262 985 276C1020 296 1036 172 1073 208C1111 245 1134 350 1200 356V477H654Z" fill="url(#mountain)"/>
+    <path d="M908 142C903 181 902 208 923 238M1068 224C1063 262 1057 284 1033 316M598 180C595 213 585 246 561 280" stroke="#F2EEDB" stroke-width="3" stroke-linecap="round" opacity=".52"/>
+    <path d="M433 311C444 297 460 299 468 303C473 281 500 281 509 300C525 295 542 302 546 315C533 322 449 324 433 311Z" fill="#FBF6E5"/>
+    <path d="M844 103C850 91 865 91 873 98C880 72 910 75 916 94C933 91 945 97 948 109C933 115 859 117 844 103Z" fill="#FBF6E5"/>
+    <path d="M1081 337C1090 322 1113 323 1118 332C1127 308 1153 312 1159 328C1174 325 1191 332 1197 343C1166 350 1115 351 1081 337Z" fill="#F9F4E2"/>
+  </g>
+  <path d="M392 460C513 408 655 399 833 417C1003 437 1092 407 1200 437V680H332C345 594 348 511 392 460Z" fill="#D5DBB9" opacity=".5"/>
+  <path d="M423 598C581 541 793 580 902 628C946 648 1016 670 1070 680H394Z" fill="#E7D9B9"/>
+  <ellipse cx="809" cy="552" rx="313" ry="63" fill="#AAB995" opacity=".24"/>
+  <g stroke="#425A3D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Old gingko tree, painted behind the restaurant. -->
+    <path d="M1110 468C1094 387 1103 331 1089 252C1074 230 1047 210 1037 176M1095 302C1111 261 1125 238 1145 218" fill="none" stroke="#8E8060" stroke-width="13"/>
+    <path d="M1093 295C1092 258 1085 225 1068 208M1112 265L1134 247" stroke="#B4A27A" stroke-width="4"/>
+    <path d="M998 178C979 142 1013 118 1041 129C1048 96 1091 102 1104 119C1131 106 1163 125 1157 153C1194 155 1199 196 1174 212C1184 241 1142 263 1121 243C1099 267 1069 251 1069 232C1034 248 1006 224 1013 205C998 205 990 193 998 178Z" fill="#B7C48D" stroke="#8DAB78" stroke-width="2"/>
+    <path d="M1027 158Q1052 140 1070 158M1119 144Q1141 134 1150 152M1140 216Q1161 222 1168 207M1050 209Q1067 193 1084 207" stroke="#DCE0B4" stroke-width="4"/>
+    <path d="M1089 168Q1107 158 1120 168M1097 220Q1113 210 1125 217" stroke="#92AB73" stroke-width="3"/>
+    <!-- Shop silhouette and shaded open kitchen. -->
+    <g filter="url(#shadow)">
+      <path d="M674 269L981 284L978 474L667 449Z" fill="#E9D4A4" stroke="#735C3F"/>
+      <path d="M696 296L952 312L952 425L696 406Z" fill="#67745A" stroke="#6F6044"/>
+      <path d="M716 309L816 315L816 404L716 397Z" fill="#8F9570" stroke="none"/>
+      <path d="M718 354L814 360M761 311L761 400" stroke="#BAAF81"/>
+      <path d="M838 323L935 329M840 365L936 371" stroke="#BFAA77" stroke-width="6"/>
+      <path d="M676 274L693 275L689 458L672 457Z" fill="#A87849" stroke="#735C3F"/>
+      <path d="M955 282L974 284L973 479L953 477Z" fill="#A87849" stroke="#735C3F"/>
+      <path d="M648 205Q698 196 743 165L974 176Q994 224 1052 258Q1001 284 937 286L616 257Q637 240 648 205Z" fill="url(#roof)"/>
+      <g clip-path="url(#roofClip)"><path d="M630 194H1060V293H612Z" fill="url(#tiles)"/><path d="M740 168C724 198 698 234 668 261M791 171C781 213 771 245 753 269M844 173C844 209 852 253 861 278M909 175C920 214 938 252 961 283" stroke="#C7D3B2" stroke-width="2" opacity=".6"/></g>
+      <path d="M616 257Q775 266 932 287Q1003 289 1052 258" stroke="#2F553F" stroke-width="10"/>
+      <path d="M616 250Q775 261 932 280Q1003 282 1052 252" stroke="#94B08C" stroke-width="4"/>
+      <path d="M737 164Q845 153 978 176" stroke="#35563E" stroke-width="9"/>
+      <path d="M745 159Q849 151 973 171" stroke="#9CAE81" stroke-width="3"/>
+      <path d="M552 390L907 414L974 394L625 371Z" fill="#D7AB71" stroke="#775439"/>
+      <path d="M552 390L907 414L907 535L553 510Z" fill="url(#wood)" stroke="#775439"/>
+      <path d="M907 414L974 394L974 515L907 535Z" fill="#8B6544" stroke="#6E543C"/>
+      <path d="M577 406L577 498M639 410L639 502M704 416L704 507M771 421L771 514M839 426L839 519" stroke="#885A39" stroke-width="2"/>
+      <path d="M587 422Q608 439 606 463M715 436Q743 458 724 485M850 441Q866 469 853 498" stroke="#D09C63" stroke-width="2"/>
+      <path d="M551 501L907 527L974 506" stroke="#D9A26A" stroke-width="5"/>
+      <path d="M547 388L907 413L979 392" stroke="#F0CD92" stroke-width="5"/>
+      <path d="M589 512L589 532M871 533L871 551M954 516L954 533" stroke="#715A3D" stroke-width="12"/>
+    </g>
+    <!-- Linen curtains. -->
+    <path d="M696 283L850 294L848 344Q826 357 801 341Q777 351 751 338Q723 348 695 332Z" fill="#E4C77F" stroke="#89744D" stroke-width="2"/>
+    <path d="M747 288L747 337M799 293L798 340" stroke="#AE9460" stroke-width="2"/>
+    <path d="M715 302C718 289 737 295 735 307C732 319 716 318 715 302ZM765 305Q776 296 787 307Q785 321 775 325Q765 319 765 305Z" fill="#637F54" stroke="none" opacity=".72"/>
+    <path d="M822 311Q834 301 840 313Q835 326 826 325Z" fill="#637F54" stroke="none" opacity=".72"/>
+    <path d="M780 307L774 320M720 301L730 309M827 318L836 309" stroke="#E4C77F" stroke-width="1.5"/>
+    <!-- Lanterns and a small hanging moon charm. -->
+    <path d="M647 268V307M1009 273V317" stroke="#7B6A47" stroke-width="2"/>
+    <path d="M641 303H653V310H641Z" fill="#8C6844" stroke-width="2"/>
+    <path d="M632 311Q647 304 662 313L665 342Q646 353 628 340Z" fill="#CD7956" stroke="#8C563E" stroke-width="2"/>
+    <path d="M640 311Q635 326 639 346M652 311Q658 325 653 348" stroke="#ECAF76" stroke-width="2"/>
+    <path d="M632 316L661 318M630 335L664 337" stroke="#F0BB7A" stroke-width="2"/>
+    <path d="M639 349L654 350M646 352V366M641 364L649 365" stroke="#AC6C44" stroke-width="2"/>
+    <path d="M1000 313H1018V321H1000Z" fill="#8C6844" stroke-width="2"/>
+    <path d="M990 324Q1009 314 1027 326L1028 362Q1009 373 989 360Z" fill="#E7B563" stroke="#9B7C46" stroke-width="2"/>
+    <path d="M1003 322Q997 340 1002 367M1015 322Q1021 343 1015 367M991 331L1027 333M989 354L1027 356" stroke="#F8DB99" stroke-width="2"/>
+    <path d="M1003 370H1017M1009 373V389M1004 387H1014" stroke="#AC6C44" stroke-width="2"/>
+    <!-- Things on shelves. -->
+    <path d="M851 325L850 309Q858 302 867 310L868 326" fill="#CBA567" stroke="#566449" stroke-width="2"/>
+    <path d="M883 327L884 307L900 309L902 329Z" fill="#DBD9AC" stroke="#566449" stroke-width="2"/>
+    <path d="M908 329L910 315L925 316L928 331Z" fill="#B87956" stroke="#566449" stroke-width="2"/>
+    <path d="M853 363L855 344L878 346L877 365Z" fill="#CFCE9C" stroke="#4E654B" stroke-width="2"/>
+    <path d="M855 345Q865 339 878 346" fill="#E1DDB0" stroke-width="2"/>
+    <path d="M897 367L898 348L917 350L918 369Z" fill="#A1B49A" stroke="#4E654B" stroke-width="2"/>
+    <!-- Steamer, tea and fresh vegetables. -->
+    <ellipse cx="611" cy="378" rx="38" ry="12" fill="#D8B071" stroke="#826542" stroke-width="2"/>
+    <path d="M573 368V384C582 398 638 399 649 387V371" fill="#CFAB6D" stroke="#826542" stroke-width="2"/>
+    <ellipse cx="611" cy="368" rx="38" ry="12" fill="#EAC995" stroke="#826542" stroke-width="2"/>
+    <path d="M577 378Q613 393 647 381M581 366L637 374M588 361L643 369M579 371L610 360M597 377L628 363M616 378L641 368" stroke="#AC824E" stroke-width="1.5"/>
+    <path d="M597 343C581 330 610 322 601 307M617 340C608 331 631 321 620 309" stroke="#FAF7E5" stroke-width="5" opacity=".9"/>
+    <ellipse cx="839" cy="397" rx="28" ry="6" fill="#8C6C45" stroke="none" opacity=".2"/>
+    <path d="M819 371Q813 379 821 391Q840 401 856 388L857 373Z" fill="#88A58A" stroke="#3E6754" stroke-width="2"/>
+    <path d="M855 375C877 365 878 388 858 388M818 377L806 371L809 382L820 386" fill="#88A58A" stroke="#3E6754" stroke-width="2"/>
+    <ellipse cx="838" cy="372" rx="19" ry="5" fill="#B8C9A6" stroke="#3E6754" stroke-width="2"/>
+    <path d="M834 366Q840 359 845 367" fill="#88A58A" stroke-width="2"/>
+    <path d="M878 388L879 400Q886 406 894 400L895 389Z" fill="#EAE1BF" stroke="#677553" stroke-width="2"/>
+    <ellipse cx="886" cy="389" rx="8" ry="3" fill="#BBA26B" stroke="#677553" stroke-width="1.5"/>
+    <path d="M721 383C706 371 709 357 722 361C721 342 738 348 737 363C750 348 763 361 751 373C766 373 763 386 748 389" fill="#73966A" stroke="#476E45" stroke-width="2"/>
+    <path d="M732 359L737 385M718 369L734 384M751 367L739 384" stroke="#D0D4A1" stroke-width="2"/>
+    <path d="M708 381L763 386L756 404L715 400Z" fill="#C7A16A" stroke="#846740" stroke-width="2"/>
+    <path d="M715 389L757 393M725 384L723 400M741 386L738 401M754 388L750 402" stroke="#E4C893" stroke-width="2"/>
+    <!-- Five mountain-and-sea friends, in the same hand-painted palette. -->
+    <g clip-path="url(#pandaCounter)"><g transform="translate(726 273) scale(.58)" fill="none" stroke="none">
+<title>团团 · 熊猫掌柜</title>
+  <ellipse cx="110" cy="242" rx="62" ry="9" fill="#718567" opacity=".14"/>
+  <g stroke="#4C6145" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M80 207L75 232Q83 244 101 236L101 216M119 216L119 236Q137 244 146 232L141 207" fill="#526354"/>
+    <path d="M77 143C61 160 58 190 70 214Q110 239 151 214C163 190 158 161 144 143" fill="#FBF0D4"/>
+    <path d="M77 149L91 145L98 169L123 169L130 145L144 150L148 217Q110 229 72 217Z" fill="#88A68C"/>
+    <path d="M96 188H124L122 204Q110 211 98 204Z" fill="#B9C8A0" stroke-width="2.3"/>
+    <path d="M105 196Q109 189 115 195Q116 201 109 202" stroke="#F7E7BB" stroke-width="2.8"/>
+    <path d="M76 157C61 153 49 170 53 184Q60 195 72 185L79 172M144 157C159 153 171 170 167 184Q160 195 148 185L141 172" fill="#526354"/>
+    <path d="M64 65C45 61 45 37 62 34C76 31 87 43 81 57M139 56C133 41 148 28 163 36C178 44 173 64 155 66" fill="#526354"/>
+    <path d="M55 103C48 75 65 50 109 49C151 47 173 73 167 101C177 127 154 151 111 151C70 151 46 130 55 103Z" fill="#FCF2D9"/>
+    <path d="M72 87C78 74 96 74 99 88C102 100 88 114 77 109C68 106 66 97 72 87ZM148 87C142 74 124 74 121 88C118 100 132 114 143 109C152 106 154 97 148 87Z" fill="#5B6B5B" stroke="none"/>
+    <path d="M79 94Q85 88 91 94M130 94Q136 88 142 94" stroke="#FCF4DF" stroke-width="3.3"/>
+    <path d="M102 109Q110 103 118 109L111 117Z" fill="#526354" stroke="none"/>
+    <path d="M100 124Q110 133 121 123" stroke-width="2.8"/>
+    <ellipse cx="72" cy="118" rx="9" ry="5" fill="#D9AB8D" stroke="none"/>
+    <ellipse cx="149" cy="118" rx="9" ry="5" fill="#D9AB8D" stroke="none"/>
+    <path d="M85 51L85 38Q92 31 101 38Q103 23 116 26Q126 25 130 38Q138 33 143 40L138 54Z" fill="#F7E8BE" stroke-width="2.7"/>
+    <path d="M87 50Q111 44 137 52" stroke="#C8B284" stroke-width="2"/>
+  </g>
+    </g></g>
+    <g transform="translate(389 370) scale(0.75)" fill="none" stroke="none">
+<title>清禾 · 丹顶鹤</title>
+  <ellipse cx="108" cy="242" rx="59" ry="8" fill="#718567" opacity=".14"/>
+  <g stroke="#4C6145" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M94 208L91 235M122 208L125 235" stroke="#997B5C" stroke-width="5"/>
+    <path d="M91 235L79 240M91 235L94 242M91 235L102 238M125 235L113 240M125 235L128 242M125 235L136 238" stroke="#997B5C" stroke-width="3"/>
+    <path d="M78 151C60 156 55 175 65 193L56 207L72 206L66 216L87 211" fill="#5E705D"/>
+    <path d="M84 138C68 151 61 181 73 201Q107 227 143 202C155 179 147 151 132 140" fill="#F8EDD0"/>
+    <path d="M84 145L93 160L124 161L134 147L145 161L142 205Q109 222 76 204L73 162Z" fill="#9FB396"/>
+    <path d="M97 180L121 181L119 198Q109 203 98 197Z" fill="#CDDCB5" stroke-width="2.3"/>
+    <path d="M80 154C62 149 49 165 51 180Q62 184 75 170L81 164M141 154C158 149 171 165 169 180Q158 184 145 170L139 164" fill="#F6EBD0"/>
+    <path d="M55 178L62 170M63 178L68 171M158 178L153 171M165 178L158 170" stroke="#7F9277" stroke-width="2"/>
+    <path d="M94 140C94 120 103 109 101 96L123 90C131 115 117 121 123 140Q109 149 94 140Z" fill="#596B59"/>
+    <path d="M104 100C91 97 83 87 84 72C85 51 99 38 118 40C139 40 151 55 147 75C146 92 130 103 113 102Z" fill="#FAF0D6"/>
+    <path d="M92 49C98 39 114 35 128 41L130 51Q112 45 94 57Z" fill="#BF7058" stroke="none"/>
+    <path d="M143 67L193 80L145 83Z" fill="#CCAF76" stroke-width="2.7"/>
+    <path d="M148 75L188 79" stroke="#9D895A" stroke-width="1.6"/>
+    <path d="M120 66L121 67" stroke-width="5"/>
+    <ellipse cx="112" cy="81" rx="7" ry="4" fill="#D7AF94" stroke="none"/>
+    <path d="M103 91Q116 99 129 91" stroke-width="2.4"/>
+    <path d="M91 137Q109 145 128 137L132 148Q110 159 88 147Z" fill="#C58560" stroke-width="2.4"/>
+    <path d="M122 150L135 150L138 172L124 169Z" fill="#D9A477" stroke-width="2.4"/>
+  </g>
+    </g>
+    <g transform="translate(577 460) scale(0.58)" fill="none" stroke="none">
+<title>小霁 · 雪豹</title>
+  <ellipse cx="112" cy="242" rx="71" ry="9" fill="#718567" opacity=".14"/>
+  <g stroke="#4C6145" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M142 207C171 224 194 211 191 185C188 168 181 153 191 151C206 149 214 184 206 207C197 235 168 239 142 226Z" fill="#E1E0C9"/>
+    <path d="M187 172L201 168M192 188L207 188M191 207L203 214M173 218L179 232M155 215L152 230" stroke="#8F9A86" stroke-width="7"/>
+    <path d="M73 206L68 233Q79 244 96 236L97 216M117 216L118 236Q134 244 145 233L140 206" fill="#EFEDDC"/>
+    <path d="M73 143C58 161 57 194 69 215Q108 233 147 215C157 191 153 161 138 143" fill="#E8E6D3"/>
+    <path d="M78 154L91 166L121 166L132 153L140 160L143 218Q108 231 70 216L73 164Z" fill="#D8C691"/>
+    <path d="M96 188H121L119 204Q109 209 98 203Z" fill="#F2E5BF" stroke-width="2.3"/>
+    <path d="M73 159C57 155 45 174 49 186Q56 198 69 186L76 173M143 159C159 155 171 174 167 186Q160 198 147 186L140 173" fill="#E9E8D5"/>
+    <path d="M57 174L64 171M155 171L162 174" stroke="#929D89" stroke-width="4"/>
+    <path d="M61 72C42 68 43 43 61 40C74 38 84 49 78 63M137 62C133 46 146 35 159 43C173 51 168 69 153 72" fill="#E2E3D1"/>
+    <path d="M57 54Q63 47 69 55M147 54Q154 48 160 57" stroke="#B5B9A3" stroke-width="5"/>
+    <path d="M53 106C47 77 68 57 107 56C147 55 170 78 163 106L169 116L161 119L164 128L153 130C137 152 79 154 63 133L53 134L55 124L47 119Z" fill="#F0EFDC"/>
+    <path d="M91 66L89 72L98 75M120 66L122 73L114 76M62 87L68 82L74 87L70 94M145 84L151 88L146 95L139 91M57 109L63 105L67 111M151 109L157 113L150 118" stroke="#919C88" stroke-width="4.2"/>
+    <path d="M79 100L80 101M134 100L135 101" stroke-width="5"/>
+    <path d="M98 112Q108 106 118 112L108 121Z" fill="#A28678" stroke="none"/>
+    <path d="M99 128Q108 135 118 128" stroke-width="2.6"/>
+    <path d="M66 117L76 120M65 125L76 125M140 119L151 115M141 125L152 124" stroke="#9BA18A" stroke-width="1.8"/>
+    <ellipse cx="74" cy="117" rx="7" ry="4" fill="#D6B39A" stroke="none"/><ellipse cx="142" cy="117" rx="7" ry="4" fill="#D6B39A" stroke="none"/>
+    <path d="M76 146Q107 160 138 146L140 158Q109 173 75 157Z" fill="#BC795A" stroke-width="2.5"/>
+    <path d="M125 162L139 164L137 187L124 182Z" fill="#CD8C65" stroke-width="2.5"/>
+    <path d="M77 234L79 230M85 236L86 231M128 236L127 231M137 234L135 230" stroke="#AAB09A" stroke-width="2"/>
+  </g>
+    </g>
+    <g transform="translate(1001 402) scale(0.66)" fill="none" stroke="none">
+<title>阿寅 · 老虎</title>
+  <ellipse cx="112" cy="242" rx="65" ry="9" fill="#718567" opacity=".14"/>
+  <g stroke="#4C6145" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M144 210C173 224 193 205 182 188C176 179 179 171 187 174C207 189 199 220 182 229Q162 240 141 224Z" fill="#D9AE69"/>
+    <path d="M180 192L192 189M181 213L191 219M164 219L165 232" stroke="#776846" stroke-width="6"/>
+    <path d="M73 207L69 234Q80 244 98 236L98 216M119 216L119 237Q137 244 147 233L141 207" fill="#E4BA77"/>
+    <path d="M75 143C60 162 58 193 69 215Q109 234 149 215C160 192 154 161 140 143" fill="#E1B46D"/>
+    <path d="M82 148L93 169H125L135 147L146 155L146 219Q109 230 72 217L72 155Z" fill="#B97B5A"/>
+    <path d="M98 190H125L122 206Q110 211 100 205Z" fill="#DCAB75" stroke-width="2.3"/>
+    <path d="M74 159C58 155 47 173 51 185Q58 197 71 185L78 173M146 159C162 155 173 173 169 185Q162 197 149 185L142 173" fill="#E4BA77"/>
+    <path d="M55 170L66 175M58 183L64 181M154 175L165 170M156 181L162 183" stroke="#786745" stroke-width="3.5"/>
+    <path d="M62 70C43 69 42 46 57 40C72 34 86 47 79 61M141 61C135 46 147 35 162 42C177 49 171 69 156 71" fill="#DFB16D"/>
+    <path d="M56 53Q63 45 71 55M149 54Q157 47 164 56" stroke="#EED6A7" stroke-width="6"/>
+    <path d="M55 105C48 79 68 54 109 54C150 52 171 78 165 105L171 115L163 119L165 128L154 131C137 153 80 152 64 132L53 133L56 122L48 117Z" fill="#E6BE7B"/>
+    <path d="M93 68L126 68M98 78H121M92 89H128M110 66V90" stroke="#6D6545" stroke-width="3.5"/>
+    <path d="M54 89L68 94L58 98M53 111L70 114L59 122M162 88L149 94L160 99M166 110L149 114L160 122" fill="#786848" stroke="none"/>
+    <path d="M76 101L77 102M142 101L143 102" stroke-width="5"/>
+    <path d="M79 119C83 108 98 108 109 115C121 107 137 110 140 121C144 139 120 145 109 135C96 147 73 137 79 119Z" fill="#F8E8BF" stroke="none"/>
+    <path d="M100 114Q109 109 118 114L110 122Z" fill="#936E50" stroke="none"/>
+    <path d="M110 122V128M100 129Q110 137 120 128" stroke-width="2.6"/>
+    <ellipse cx="73" cy="118" rx="7" ry="4" fill="#CD9970" stroke="none"/><ellipse cx="146" cy="118" rx="7" ry="4" fill="#CD9970" stroke="none"/>
+    <path d="M73 230L86 232M134 232L145 230" stroke="#816E49" stroke-width="3.8"/>
+    <path d="M88 147L107 154L95 165L82 154Z" fill="#E5C48C" stroke-width="2.5"/>
+    <path d="M109 154L130 146L139 155L123 164Z" fill="#E5C48C" stroke-width="2.5"/>
+    <circle cx="109" cy="157" r="5" fill="#F2D9A5" stroke-width="2"/>
+  </g>
+    </g>
+    <g transform="translate(900 493) scale(0.62)" fill="none" stroke="none">
+<title>云生 · 龙</title>
+  <ellipse cx="111" cy="242" rx="68" ry="9" fill="#718567" opacity=".14"/>
+  <g stroke="#4C6145" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M137 208C160 223 184 216 188 196C190 185 181 183 176 189C168 190 169 181 177 176C190 166 208 182 202 201C197 228 170 242 139 225Z" fill="#A5BA91"/>
+    <path d="M178 179L178 171L186 173L192 165L197 175L205 178L202 186" fill="#DCC287" stroke-width="2.5"/>
+    <path d="M76 209L72 233Q84 244 99 236L99 215M121 215L120 236Q137 244 148 233L142 209" fill="#AFC19A"/>
+    <path d="M78 143C62 162 59 192 71 216Q110 236 149 215C162 192 155 161 141 143" fill="#A7BB91"/>
+    <path d="M91 149Q110 157 130 149L137 205Q110 223 83 206Z" fill="#F1DBA5" stroke-width="2.5"/>
+    <path d="M91 173Q109 180 130 173M88 186Q109 194 133 186M87 199Q110 207 135 199" stroke="#C6AE79" stroke-width="2"/>
+    <path d="M74 159C58 155 47 173 51 186Q58 197 72 185L79 173M146 159C162 155 174 173 170 186Q163 197 149 185L141 173" fill="#AFC199"/>
+    <path d="M56 185L60 181M63 188L66 183M157 188L154 183M164 185L160 181" stroke="#DCE4BC" stroke-width="2"/>
+    <path d="M75 63C64 49 64 30 70 24L78 30L76 43L89 48L86 62M139 61L136 45L150 39L149 25L158 21C165 37 158 54 153 65" fill="#D9BC83"/>
+    <path d="M61 86L46 73L50 99L40 111L53 116L47 132L65 136M157 85L173 73L169 98L181 110L168 117L174 131L154 139" fill="#D4B979" stroke-width="2.5"/>
+    <path d="M58 107C51 79 69 58 109 57C150 55 170 78 163 106C173 132 149 150 111 150C73 151 48 134 58 107Z" fill="#B7C79E"/>
+    <path d="M79 86Q88 81 95 87M127 86Q135 80 143 85" stroke="#829B73" stroke-width="3"/>
+    <path d="M81 100L82 101M139 99L140 100" stroke-width="5"/>
+    <path d="M83 116C83 103 98 104 110 110C122 103 137 104 140 117C146 134 130 144 111 142C92 143 76 134 83 116Z" fill="#ECE0B4" stroke-width="2.7"/>
+    <path d="M99 117L100 118M122 117L123 118" stroke="#7C8C63" stroke-width="3"/>
+    <path d="M101 131Q111 137 122 130" stroke-width="2.5"/>
+    <path d="M87 126C70 120 63 131 51 128C43 126 39 119 44 116M135 126C150 121 161 133 174 127C181 124 182 118 178 116" stroke="#998450" stroke-width="2.3"/>
+    <path d="M101 147L96 155L108 153L116 161L120 149" fill="#DCC48B" stroke-width="2.3"/>
+    <ellipse cx="73" cy="114" rx="7" ry="4" fill="#CDAF87" stroke="none"/><ellipse cx="149" cy="113" rx="7" ry="4" fill="#CDAF87" stroke="none"/>
+    <path d="M73 211Q110 222 147 211L146 222Q110 233 73 222Z" fill="#BC7D5C" stroke-width="2.3"/>
+    <path d="M78 235L81 230M88 237L90 232M132 237L130 232M142 235L139 230" stroke="#E4E6BD" stroke-width="2"/>
+  </g>
+    </g>
+    <!-- Low round table, ceramic bowls and dumplings. -->
+    <path d="M743 545L732 601M864 546L875 604M812 557L812 615" stroke="#7F6345" stroke-width="12"/>
+    <ellipse cx="806" cy="537" rx="92" ry="29" fill="#A5784F" stroke="#735A3D" stroke-width="3"/>
+    <ellipse cx="806" cy="529" rx="93" ry="28" fill="#DEBA80" stroke="#735A3D" stroke-width="3"/>
+    <path d="M732 528Q759 545 799 542M817 513Q851 516 874 527" stroke="#B58C56" stroke-width="2"/>
+    <ellipse cx="787" cy="526" rx="30" ry="11" fill="#F5EBCC" stroke="#74937B" stroke-width="2"/>
+    <ellipse cx="787" cy="526" rx="24" ry="7" stroke="#B5C0A0" stroke-width="1.5"/>
+    <path d="M770 524Q773 509 782 516Q790 519 789 527Z" fill="#EAD7A6" stroke="#AA9668" stroke-width="1.5"/>
+    <path d="M785 524Q790 507 800 516Q806 522 801 529Z" fill="#F6E5B8" stroke="#AA9668" stroke-width="1.5"/>
+    <path d="M776 518L778 523M794 516L795 523M798 518L799 524" stroke="#BAA274" stroke-width="1.4"/>
+    <path d="M841 520L842 534Q852 540 861 533L862 521Z" fill="#8CA68B" stroke="#4B7155" stroke-width="2"/>
+    <ellipse cx="851" cy="520" rx="11" ry="4" fill="#D7D3A2" stroke="#4B7155" stroke-width="2"/>
+    <path d="M820 536L838 528M824 540L842 531" stroke="#7C6443" stroke-width="2"/>
+    <path d="M700 570L697 605M720 574L723 608" stroke="#89704A" stroke-width="8"/>
+    <ellipse cx="710" cy="568" rx="24" ry="10" fill="#C59D65" stroke="#78613F" stroke-width="2.5"/>
+    <path d="M904 572L901 606M925 575L929 608" stroke="#89704A" stroke-width="8"/>
+    <ellipse cx="915" cy="568" rx="24" ry="10" fill="#C59D65" stroke="#78613F" stroke-width="2.5"/>
+    <!-- Plants anchor the shop to the hillside. -->
+    <path d="M568 552C553 524 526 515 530 502C547 497 563 524 568 552C565 512 565 492 578 491C590 503 577 530 568 552C590 523 604 518 610 528C607 542 584 550 568 552Z" fill="#789568" stroke="#52744F" stroke-width="2"/>
+    <path d="M548 548L587 551L581 579Q564 588 552 577Z" fill="#BF805A" stroke="#876247" stroke-width="2.5"/>
+    <path d="M552 559L583 561" stroke="#E0A674" stroke-width="3"/>
+    <path d="M1015 541C995 521 994 505 1002 503C1016 504 1018 527 1015 541C1011 518 1016 496 1027 498C1039 505 1022 529 1015 541C1035 521 1045 526 1044 534C1040 543 1027 547 1015 541Z" fill="#88A079" stroke="#56774F" stroke-width="2"/>
+    <path d="M998 541L1034 543L1028 570Q1015 577 1003 567Z" fill="#DAAA6E" stroke="#917448" stroke-width="2.5"/>
+    <path d="M1003 550L1029 552" stroke="#F0CD8D" stroke-width="3"/>
+    <path d="M1165 563C1149 545 1143 527 1150 524C1162 525 1168 548 1165 563C1164 533 1173 523 1180 528C1184 541 1173 557 1165 563" fill="#96AD82" stroke="#708E60" stroke-width="2"/>
+    <path d="M411 560L416 548L420 560M436 603L439 590L444 601M1001 606L1006 594L1010 608M1149 595L1153 584L1159 595M606 615L610 605L617 618" stroke="#93A77E" stroke-width="2"/>
+    <path d="M476 600Q486 591 496 598Q492 609 480 608Z" fill="#D7C8A1" stroke="#B5AB85" stroke-width="1.5"/>
+    <path d="M968 584Q977 578 986 585Q978 592 970 590Z" fill="#D7C8A1" stroke="#B5AB85" stroke-width="1.5"/>
+    <path d="M1049 614Q1065 605 1074 615Q1066 625 1053 623Z" fill="#D7C8A1" stroke="#B5AB85" stroke-width="1.5"/>
+  </g>
+  <g fill="#C9A658" opacity=".7"><path d="M556 209L559 218L568 221L559 224L556 233L553 224L544 221L553 218Z"/><path d="M948 76L950 83L957 85L950 87L948 94L946 87L939 85L946 83Z"/><circle cx="589" cy="133" r="2.5"/><circle cx="1146" cy="300" r="3"/></g>
+  <rect width="1200" height="680" rx="28" fill="transparent" filter="url(#grain)" pointer-events="none"/>
+</svg>

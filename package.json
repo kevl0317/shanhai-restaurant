@@ -1,0 +1,14 @@
+{
+  "name": "shanhai-restaurant",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "山海食谱铺：以中国菜品练习顺序记忆与菜单更新的 25 关网页游戏",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "test": "node --test",
+    "build": "node scripts/build.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

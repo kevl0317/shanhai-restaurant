@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" fill="none">
+  <title>熊猫木雕</title>
+  <defs><linearGradient id="wood" x1="61" y1="53" x2="98" y2="127" gradientUnits="userSpaceOnUse"><stop stop-color="#E1BB80"/><stop offset="1" stop-color="#BC8B56"/></linearGradient></defs>
+  <ellipse cx="79" cy="140" rx="55" ry="8" fill="#465E40" opacity=".1"/>
+  <path d="M31 129Q80 120 128 129V138Q78 147 31 138Z" fill="#94704B" stroke="#745C41" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="79" cy="129" rx="48" ry="8" fill="#D1AC78" stroke="#745C41" stroke-width="2.5"/>
+  <g stroke="#795C3F" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M55 91C43 105 45 122 55 129Q80 138 104 129C115 113 108 99 101 91" fill="url(#wood)"/>
+    <path d="M59 118L52 128Q56 135 67 131L70 122M88 122L91 132Q103 135 107 128L100 119" fill="#9E744B"/>
+    <path d="M54 51C39 48 40 31 52 29C63 27 71 36 66 45M94 45C89 34 100 24 110 30C122 36 116 51 105 52" fill="#936B47"/>
+    <path d="M43 72C39 51 52 39 79 39C106 38 122 53 116 74C124 91 105 101 80 100C54 101 36 88 43 72Z" fill="url(#wood)"/>
+    <path d="M56 61C62 54 70 58 71 65C72 73 64 80 58 77C51 75 51 68 56 61ZM103 61C97 54 89 58 88 65C87 73 95 80 101 77C108 75 108 68 103 61Z" fill="#9C754E" stroke="none"/>
+    <path d="M58 66Q62 62 66 66M93 66Q97 62 101 66" stroke="#EFCE94" stroke-width="2"/>
+    <path d="M75 78L84 78L80 84Z" fill="#886444" stroke="none"/>
+    <path d="M73 88Q80 94 87 88" stroke-width="2"/>
+    <path d="M52 104Q39 99 39 112Q44 122 55 116M103 104Q114 100 117 112Q112 124 102 116" fill="#9E744B"/>
+    <path d="M63 109Q79 103 97 110M68 118Q79 114 89 118" stroke="#EDC58B" stroke-width="2"/>
+    <path d="M106 124L117 87" stroke="#69794E" stroke-width="5"/>
+    <path d="M109 115L114 117M113 101L119 103M116 89L122 91" stroke="#C2CA91" stroke-width="2"/>
+    <path d="M116 100C113 88 124 83 133 88Q133 101 116 100Z" fill="#9CAD78" stroke="#657D4D" stroke-width="2"/>
+    <path d="M116 101C106 90 96 94 99 104Q109 111 116 101Z" fill="#B5BE88" stroke="#657D4D" stroke-width="2"/>
+  </g>
+  <path d="M130 39L133 46L140 49L133 52L130 59L127 52L120 49L127 46Z" fill="#C8A963" opacity=".7"/>
+</svg>

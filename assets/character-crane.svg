@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="260" viewBox="0 0 220 260" fill="none">
+  <title>清禾 · 丹顶鹤</title>
+  <ellipse cx="108" cy="242" rx="59" ry="8" fill="#718567" opacity=".14"/>
+  <g stroke="#4C6145" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M94 208L91 235M122 208L125 235" stroke="#997B5C" stroke-width="5"/>
+    <path d="M91 235L79 240M91 235L94 242M91 235L102 238M125 235L113 240M125 235L128 242M125 235L136 238" stroke="#997B5C" stroke-width="3"/>
+    <path d="M78 151C60 156 55 175 65 193L56 207L72 206L66 216L87 211" fill="#5E705D"/>
+    <path d="M84 138C68 151 61 181 73 201Q107 227 143 202C155 179 147 151 132 140" fill="#F8EDD0"/>
+    <path d="M84 145L93 160L124 161L134 147L145 161L142 205Q109 222 76 204L73 162Z" fill="#9FB396"/>
+    <path d="M97 180L121 181L119 198Q109 203 98 197Z" fill="#CDDCB5" stroke-width="2.3"/>
+    <path d="M80 154C62 149 49 165 51 180Q62 184 75 170L81 164M141 154C158 149 171 165 169 180Q158 184 145 170L139 164" fill="#F6EBD0"/>
+    <path d="M55 178L62 170M63 178L68 171M158 178L153 171M165 178L158 170" stroke="#7F9277" stroke-width="2"/>
+    <path d="M94 140C94 120 103 109 101 96L123 90C131 115 117 121 123 140Q109 149 94 140Z" fill="#596B59"/>
+    <path d="M104 100C91 97 83 87 84 72C85 51 99 38 118 40C139 40 151 55 147 75C146 92 130 103 113 102Z" fill="#FAF0D6"/>
+    <path d="M92 49C98 39 114 35 128 41L130 51Q112 45 94 57Z" fill="#BF7058" stroke="none"/>
+    <path d="M143 67L193 80L145 83Z" fill="#CCAF76" stroke-width="2.7"/>
+    <path d="M148 75L188 79" stroke="#9D895A" stroke-width="1.6"/>
+    <path d="M120 66L121 67" stroke-width="5"/>
+    <ellipse cx="112" cy="81" rx="7" ry="4" fill="#D7AF94" stroke="none"/>
+    <path d="M103 91Q116 99 129 91" stroke-width="2.4"/>
+    <path d="M91 137Q109 145 128 137L132 148Q110 159 88 147Z" fill="#C58560" stroke-width="2.4"/>
+    <path d="M122 150L135 150L138 172L124 169Z" fill="#D9A477" stroke-width="2.4"/>
+  </g>
+</svg>
