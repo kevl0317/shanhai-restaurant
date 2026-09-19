@@ -1,0 +1,316 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "mode": "generate",
+  "style_reference": "images/01-baiqieji.png",
+  "generated_date": "2026-09-19",
+  "originals_retained": true,
+  "assets": [
+    {
+      "id": "22",
+      "file": "images/22-xihu-cuyu.png",
+      "prompt_file": "prompts/22-xihu-cuyu.txt",
+      "source_path": "C:\\Users\\24510\\.codex\\generated_images\\01a0ba14-4d0b-7141-9abf-0d059108c268\\exec-2163a048-5ea4-4920-9a5b-e9332226ed4b.png",
+      "visual_check": "Correct requested dish; complete plate or bowl; no text; consistent cream/celadon porcelain and painted style.",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha_present": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixel_fraction": 0.483164,
+      "partially_transparent_pixel_count": 812526,
+      "alpha_bbox": [
+        0,
+        152,
+        1254,
+        1254
+      ],
+      "visible_bbox_alpha_gt_16": [
+        11,
+        199,
+        1249,
+        1053
+      ],
+      "corners_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "true_transparency_verified": true,
+      "all_corners_exactly_transparent": true,
+      "framing_note": "Narrow horizontal transparent padding; full fish and serving platter visually verified as present. Original generation retained."
+    },
+    {
+      "id": "23",
+      "file": "images/23-dongporou.png",
+      "prompt_file": "prompts/23-dongporou.txt",
+      "source_path": "C:\\Users\\24510\\.codex\\generated_images\\01a0ba14-4d0b-7141-9abf-0d059108c268\\exec-c492ba2a-6c7a-4416-9d1c-33dee34f39c0.png",
+      "visual_check": "Correct requested dish; complete plate or bowl; no text; consistent cream/celadon porcelain and painted style.",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha_present": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixel_fraction": 0.421589,
+      "partially_transparent_pixel_count": 909345,
+      "alpha_bbox": [
+        0,
+        9,
+        1248,
+        1223
+      ],
+      "visible_bbox_alpha_gt_16": [
+        34,
+        146,
+        1220,
+        1129
+      ],
+      "corners_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "true_transparency_verified": true,
+      "all_corners_exactly_transparent": true
+    },
+    {
+      "id": "24",
+      "file": "images/24-youmen-chunsun.png",
+      "prompt_file": "prompts/24-youmen-chunsun.txt",
+      "source_path": "C:\\Users\\24510\\.codex\\generated_images\\01a0ba14-4d0b-7141-9abf-0d059108c268\\exec-637429cb-ebcd-4ddf-8733-aab7d18a30e9.png",
+      "visual_check": "Correct requested dish; complete plate or bowl; no text; consistent cream/celadon porcelain and painted style.",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha_present": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixel_fraction": 0.435259,
+      "partially_transparent_pixel_count": 887658,
+      "alpha_bbox": [
+        0,
+        53,
+        1248,
+        1174
+      ],
+      "visible_bbox_alpha_gt_16": [
+        37,
+        159,
+        1214,
+        1114
+      ],
+      "corners_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "true_transparency_verified": true,
+      "all_corners_exactly_transparent": true
+    },
+    {
+      "id": "25",
+      "file": "images/25-xihu-chuncaitang.png",
+      "prompt_file": "prompts/25-xihu-chuncaitang.txt",
+      "source_path": "C:\\Users\\24510\\.codex\\generated_images\\01a0ba14-4d0b-7141-9abf-0d059108c268\\exec-2d428603-7e1d-44a8-8ee7-548fe0c0b8c5.png",
+      "visual_check": "Correct requested dish; complete plate or bowl; no text; consistent cream/celadon porcelain and painted style.",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha_present": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixel_fraction": 0.422361,
+      "partially_transparent_pixel_count": 908246,
+      "alpha_bbox": [
+        0,
+        9,
+        1208,
+        1254
+      ],
+      "visible_bbox_alpha_gt_16": [
+        39,
+        117,
+        1201,
+        1139
+      ],
+      "corners_alpha": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "true_transparency_verified": true,
+      "all_corners_exactly_transparent": false,
+      "alpha_note": "Bottom-left corner has alpha 1/255; other three corners are 0. Negligible near-transparent fringe retained exactly as generated; no image post-processing."
+    },
+    {
+      "id": "26",
+      "file": "images/26-mifan.png",
+      "prompt_file": "prompts/26-mifan.txt",
+      "source_path": "C:\\Users\\24510\\.codex\\generated_images\\01a0ba14-4d0b-7141-9abf-0d059108c268\\exec-916a08a8-f86e-4d40-9549-502e538303b9.png",
+      "visual_check": "Correct requested dish; complete plate or bowl; no text; consistent cream/celadon porcelain and painted style.",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha_present": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixel_fraction": 0.567367,
+      "partially_transparent_pixel_count": 680106,
+      "alpha_bbox": [
+        0,
+        53,
+        1200,
+        1198
+      ],
+      "visible_bbox_alpha_gt_16": [
+        118,
+        195,
+        1136,
+        1089
+      ],
+      "corners_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "true_transparency_verified": true,
+      "all_corners_exactly_transparent": true
+    },
+    {
+      "id": "27",
+      "file": "images/27-qingchao-qingcai.png",
+      "prompt_file": "prompts/27-qingchao-qingcai.txt",
+      "source_path": "C:\\Users\\24510\\.codex\\generated_images\\01a0ba14-4d0b-7141-9abf-0d059108c268\\exec-f739b9af-e8aa-4971-b91e-f7cf761ff371.png",
+      "visual_check": "Correct requested dish; complete plate or bowl; no text; consistent cream/celadon porcelain and painted style.",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha_present": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixel_fraction": 0.421078,
+      "partially_transparent_pixel_count": 910000,
+      "alpha_bbox": [
+        0,
+        53,
+        1253,
+        1228
+      ],
+      "visible_bbox_alpha_gt_16": [
+        34,
+        146,
+        1220,
+        1114
+      ],
+      "corners_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "true_transparency_verified": true,
+      "all_corners_exactly_transparent": true
+    },
+    {
+      "id": "28",
+      "file": "images/28-zhengdan.png",
+      "prompt_file": "prompts/28-zhengdan.txt",
+      "source_path": "C:\\Users\\24510\\.codex\\generated_images\\01a0ba14-4d0b-7141-9abf-0d059108c268\\exec-60315de3-abef-4688-92c8-299f5a2c2ef7.png",
+      "visual_check": "Correct requested dish; complete plate or bowl; no text; consistent cream/celadon porcelain and painted style.",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha_present": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixel_fraction": 0.437653,
+      "partially_transparent_pixel_count": 884073,
+      "alpha_bbox": [
+        49,
+        53,
+        1204,
+        1182
+      ],
+      "visible_bbox_alpha_gt_16": [
+        56,
+        135,
+        1197,
+        1153
+      ],
+      "corners_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "true_transparency_verified": true,
+      "all_corners_exactly_transparent": true
+    },
+    {
+      "id": "29",
+      "file": "images/29-luobotang.png",
+      "prompt_file": "prompts/29-luobotang.txt",
+      "source_path": "C:\\Users\\24510\\.codex\\generated_images\\01a0ba14-4d0b-7141-9abf-0d059108c268\\exec-ca6bda3e-ec7e-4b89-b729-e24b152898be.png",
+      "visual_check": "Correct requested dish; complete plate or bowl; no text; consistent cream/celadon porcelain and painted style.",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "mode": "RGBA",
+      "alpha_present": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixel_fraction": 0.429455,
+      "partially_transparent_pixel_count": 896896,
+      "alpha_bbox": [
+        0,
+        47,
+        1222,
+        1184
+      ],
+      "visible_bbox_alpha_gt_16": [
+        36,
+        147,
+        1209,
+        1140
+      ],
+      "corners_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "true_transparency_verified": true,
+      "all_corners_exactly_transparent": true
+    }
+  ],
+  "transparency_check_definition": "PNG has an alpha channel, fully transparent background pixels, opaque subject pixels, and corner alpha no greater than 1/255. Exact corner values are retained."
+}

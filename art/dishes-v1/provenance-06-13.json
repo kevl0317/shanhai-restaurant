@@ -1,0 +1,318 @@
+{
+  "batch": "06-13",
+  "created_date": "2026-09-19",
+  "items": [
+    {
+      "id": "06",
+      "name": "麻婆豆腐",
+      "file": "images/06-mapodoufu.png",
+      "prompt": "prompts/06-mapodoufu.txt",
+      "generation_tool": "built-in image_gen.imagegen",
+      "original_generated_path": "C:\\Users\\24510\\.codex\\generated_images\\01a0ba15-edf0-7a30-b639-c3ffa25fc4b0\\exec-4d1da37e-e62a-4b61-957f-d83ab7dfa369.png",
+      "reference_image": "images/01-baiqieji.png",
+      "reference_role": "style/camera/porcelain only",
+      "visual_review": {
+        "passed": true,
+        "notes": "红亮酱汁、白豆腐块、少量肉末与葱花清晰；器皿完整。"
+      },
+      "modified_after_generation": false,
+      "inspection": {
+        "mode": "RGBA",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "fully_transparent_pixels": 664565,
+        "partially_transparent_pixels": 907607,
+        "fully_transparent_percent": 42.261,
+        "opaque_subject_bbox_at_alpha_128": [
+          36,
+          145,
+          1216,
+          1111
+        ],
+        "true_transparent_background": true,
+        "corners_alpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "6d2579cd7362ede7ce7892ec1f69850b403b0e91b291bec10d15b762b6d0d2a2"
+      }
+    },
+    {
+      "id": "07",
+      "name": "回锅肉",
+      "file": "images/07-huiguorou.png",
+      "prompt": "prompts/07-huiguorou.txt",
+      "generation_tool": "built-in image_gen.imagegen",
+      "original_generated_path": "C:\\Users\\24510\\.codex\\generated_images\\01a0ba15-edf0-7a30-b639-c3ffa25fc4b0\\exec-562048be-2ba7-4104-a2c8-7b10b397a5c7.png",
+      "reference_image": "images/01-baiqieji.png",
+      "reference_role": "style/camera/porcelain only",
+      "visual_review": {
+        "passed": true,
+        "notes": "层次清楚的肉片与绿色蒜苗明显；器皿完整。"
+      },
+      "modified_after_generation": false,
+      "inspection": {
+        "mode": "RGBA",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "fully_transparent_pixels": 665215,
+        "partially_transparent_pixels": 906900,
+        "fully_transparent_percent": 42.303,
+        "opaque_subject_bbox_at_alpha_128": [
+          36,
+          148,
+          1220,
+          1111
+        ],
+        "true_transparent_background": true,
+        "corners_alpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "e3a5fca1de1f6dcc0ee0c881ad3d739a5221d969242a3668c815f1132acc59b9"
+      }
+    },
+    {
+      "id": "08",
+      "name": "开水白菜",
+      "file": "images/08-kaishuibaicai.png",
+      "prompt": "prompts/08-kaishuibaicai.txt",
+      "generation_tool": "built-in image_gen.imagegen",
+      "original_generated_path": "C:\\Users\\24510\\.codex\\generated_images\\01a0ba15-edf0-7a30-b639-c3ffa25fc4b0\\exec-0e6f4cce-95c0-4886-a641-d1b69c09824b.png",
+      "reference_image": "images/01-baiqieji.png",
+      "reference_role": "style/camera/porcelain only",
+      "visual_review": {
+        "passed": true,
+        "notes": "整束相连白菜心与浅金清汤；不是切碎青菜或奶汤。"
+      },
+      "modified_after_generation": false,
+      "inspection": {
+        "mode": "RGBA",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "fully_transparent_pixels": 594414,
+        "partially_transparent_pixels": 977741,
+        "fully_transparent_percent": 37.8,
+        "opaque_subject_bbox_at_alpha_128": [
+          22,
+          116,
+          1231,
+          1146
+        ],
+        "true_transparent_background": true,
+        "corners_alpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "2c023cc3e3f7981210083e2e61a59c2ae0628390945ec2cc8d8d3c2486b42dea"
+      }
+    },
+    {
+      "id": "09",
+      "name": "樟茶鸭",
+      "file": "images/09-zhangchaya.png",
+      "prompt": "prompts/09-zhangchaya.txt",
+      "generation_tool": "built-in image_gen.imagegen",
+      "original_generated_path": "C:\\Users\\24510\\.codex\\generated_images\\01a0ba15-edf0-7a30-b639-c3ffa25fc4b0\\exec-eb2db4b1-938c-461a-8c84-0627a1f756ec.png",
+      "reference_image": "images/01-baiqieji.png",
+      "reference_role": "style/camera/porcelain only",
+      "visual_review": {
+        "passed": true,
+        "notes": "深红褐鸭块与鸭腿；明显区别于白切鸡；器皿完整。"
+      },
+      "modified_after_generation": false,
+      "inspection": {
+        "mode": "RGBA",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "fully_transparent_pixels": 660959,
+        "partially_transparent_pixels": 911278,
+        "fully_transparent_percent": 42.032,
+        "opaque_subject_bbox_at_alpha_128": [
+          36,
+          146,
+          1219,
+          1113
+        ],
+        "true_transparent_background": true,
+        "corners_alpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "c815ecd4f3d93d890921cf0e92e531757082dd5acff3d950d8421b1178dfd3fe"
+      }
+    },
+    {
+      "id": "10",
+      "name": "四川什锦泡菜",
+      "file": "images/10-sichuan-shijin-paocai.png",
+      "prompt": "prompts/10-sichuan-shijin-paocai.txt",
+      "generation_tool": "built-in image_gen.imagegen",
+      "original_generated_path": "C:\\Users\\24510\\.codex\\generated_images\\01a0ba15-edf0-7a30-b639-c3ffa25fc4b0\\exec-feb4ba4b-b7c5-4336-a2d2-1f8a19df2d43.png",
+      "reference_image": "images/01-baiqieji.png",
+      "reference_role": "style/camera/porcelain only",
+      "visual_review": {
+        "passed": true,
+        "notes": "多色蔬菜条与小泡菜坛同时清晰；器皿完整。"
+      },
+      "modified_after_generation": false,
+      "inspection": {
+        "mode": "RGBA",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "fully_transparent_pixels": 770396,
+        "partially_transparent_pixels": 801772,
+        "fully_transparent_percent": 48.991,
+        "opaque_subject_bbox_at_alpha_128": [
+          64,
+          106,
+          1215,
+          1143
+        ],
+        "true_transparent_background": true,
+        "corners_alpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "81cbf6918dadcc3549538810ee3da507c1aa4448c1aedee7cfef0b105b2438ea"
+      }
+    },
+    {
+      "id": "11",
+      "name": "糖醋鲤鱼",
+      "file": "images/11-tangcu-liyu.png",
+      "prompt": "prompts/11-tangcu-liyu.txt",
+      "generation_tool": "built-in image_gen.imagegen",
+      "original_generated_path": "C:\\Users\\24510\\.codex\\generated_images\\01a0ba15-edf0-7a30-b639-c3ffa25fc4b0\\exec-58cd9c5b-01fe-4dc1-b83a-d9c12067cd77.png",
+      "reference_image": "images/01-baiqieji.png",
+      "reference_role": "style/camera/porcelain only",
+      "visual_review": {
+        "passed": true,
+        "notes": "整鲤鱼头尾翘起形成拱形，亮橙红酱汁；完整盘缘可见。"
+      },
+      "modified_after_generation": false,
+      "inspection": {
+        "mode": "RGBA",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "fully_transparent_pixels": 720977,
+        "partially_transparent_pixels": 851248,
+        "fully_transparent_percent": 45.849,
+        "opaque_subject_bbox_at_alpha_128": [
+          21,
+          93,
+          1243,
+          1123
+        ],
+        "true_transparent_background": true,
+        "corners_alpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "fdaf39ed82276ceab36671601d99866b1cdba310a5d79725f70754599c79e201"
+      }
+    },
+    {
+      "id": "12",
+      "name": "葱烧海参",
+      "file": "images/12-congshao-haishen.png",
+      "prompt": "prompts/12-congshao-haishen.txt",
+      "generation_tool": "built-in image_gen.imagegen",
+      "original_generated_path": "C:\\Users\\24510\\.codex\\generated_images\\01a0ba15-edf0-7a30-b639-c3ffa25fc4b0\\exec-cb28f681-9ddb-4017-aa6f-7b3325705d7c.png",
+      "reference_image": "images/01-baiqieji.png",
+      "reference_role": "style/camera/porcelain only",
+      "visual_review": {
+        "passed": true,
+        "notes": "深褐海参表面突起与长葱段清晰；器皿完整。"
+      },
+      "modified_after_generation": false,
+      "inspection": {
+        "mode": "RGBA",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "fully_transparent_pixels": 703172,
+        "partially_transparent_pixels": 868949,
+        "fully_transparent_percent": 44.716,
+        "opaque_subject_bbox_at_alpha_128": [
+          24,
+          189,
+          1239,
+          1093
+        ],
+        "true_transparent_background": true,
+        "corners_alpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "7f73670a8ae92364a60f3438ac17f22544ea9e53ec186bcd7eee5fdd83c401ec"
+      }
+    },
+    {
+      "id": "13",
+      "name": "奶汤蒲菜",
+      "file": "images/13-naitang-pucai.png",
+      "prompt": "prompts/13-naitang-pucai.txt",
+      "generation_tool": "built-in image_gen.imagegen",
+      "original_generated_path": "C:\\Users\\24510\\.codex\\generated_images\\01a0ba15-edf0-7a30-b639-c3ffa25fc4b0\\exec-c4877ea0-bafb-407a-82a4-461da6840c67.png",
+      "reference_image": "images/01-baiqieji.png",
+      "reference_role": "style/camera/porcelain only",
+      "visual_review": {
+        "passed": true,
+        "notes": "乳白汤底与浅色短蒲菜段清晰，区别于文思豆腐细丝；器皿完整。"
+      },
+      "modified_after_generation": false,
+      "inspection": {
+        "mode": "RGBA",
+        "width": 1254,
+        "height": 1254,
+        "alpha_min": 0,
+        "alpha_max": 255,
+        "fully_transparent_pixels": 675090,
+        "partially_transparent_pixels": 897257,
+        "fully_transparent_percent": 42.931,
+        "opaque_subject_bbox_at_alpha_128": [
+          37,
+          151,
+          1218,
+          1145
+        ],
+        "true_transparent_background": true,
+        "corners_alpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "92ff824cd74483c33e598be210097e464ebca65b004b000efa6d9caa828578ce"
+      }
+    }
+  ]
+}
