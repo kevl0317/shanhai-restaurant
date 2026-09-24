@@ -1,6 +1,0 @@
-Use case: stylized-concept.
-Asset type: A single finished food sprite for the Chinese cozy restaurant memory game 山海食谱铺.
-Reference image role: 01-baiqieji.png is ONLY a style / camera / porcelain reference. Create a NEW dish as described in Subject, never another chicken plate.
-Art direction: refined cozy Chinese storybook game food illustration; hand-painted opaque gouache, clean soft outlines, subtly dimensional 2.5D shading, softly rounded simplified forms, delicate painted texture. Real, recognisable, appetizing Chinese cuisine, credible ingredients. Warm cream ceramic, restrained celadon rim accent, rich natural food colors. Neither a photograph nor photorealistic 3D nor flat emoji. Soft light from upper left. No cast shadow outside the dish. At small icon size the silhouette and food ingredients remain very readable.
-Composition: square canvas, orthographic three-quarter view from above at 45 degrees, one complete serving centered, all ceramic edges fully visible, sprite occupies about 80% of canvas width, generous even transparent padding on all sides. No hands, people, faces, eyes, chopsticks, table, scene, frame, lettering, labels, watermark or unrelated dishes. Keep everything a single tidy isolated asset.
-Background: genuinely transparent PNG RGBA with clean antialiased alpha edges, no solid white background and no drawn checkerboard.

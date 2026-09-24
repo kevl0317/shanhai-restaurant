@@ -1,10 +1,51 @@
+# Local references and development-only material
+.local/
+docs/
+tests/
+test-*.cjs
+*-preview.html
+DESIGN.md
+ART.md
+**/PROMPTS.md
+**/*-prompts.md
+**/*-prompt.md
+**/prompts/
+*.docx
+*.pdf
+*.zip
+.claude/
+.codex/
+.agents/
+.vscode/
+.idea/
+
+# Generated output, caches, and temporary checks
 node_modules/
 dist/
+coverage/
+playtest/
+playwright-report/
+test-results/
+.npm-cache/
+.site-setup/
+logs/
+tmp/
+temp/
+__pycache__/
+*.pyc
 *.log
-.DS_Store
-Thumbs.db
+*.tmp
+*.bak
+test-*.png
+qa-*.png
+
+# Machine-local files and secrets
 .env
 .env.*
 !.env.example
-art/*.zip
-playtest/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Project-specific development files
+art/

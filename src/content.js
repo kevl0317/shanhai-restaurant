@@ -8,8 +8,8 @@ export const DISHES = [
     "chapter": 1,
     "knowledge": "白切鸡是广东常见的特色菜，名称也写作“白斩鸡”。",
     "recognition": "浅色鸡块与小蘸碟",
-    "image": "art/dishes-v1/icons-256/01-baiqieji.png",
-    "large": "art/dishes-v1/sprites-1024/01-baiqieji.png"
+    "image": "assets/dishes/icons-256/01-baiqieji.png",
+    "large": "assets/dishes/sprites-1024/01-baiqieji.png"
   },
   {
     "id": "02",
@@ -19,8 +19,8 @@ export const DISHES = [
     "chapter": 1,
     "knowledge": "以鲜虾为主要馅料，外皮晶莹透亮，口感鲜嫩爽滑，是经典粤式点心",
     "recognition": "半透明褶边饺形",
-    "image": "art/dishes-v1/icons-256/02-xiajiao.png",
-    "large": "art/dishes-v1/sprites-1024/02-xiajiao.png"
+    "image": "assets/dishes/icons-256/02-xiajiao.png",
+    "large": "assets/dishes/sprites-1024/02-xiajiao.png"
   },
   {
     "id": "03",
@@ -30,8 +30,8 @@ export const DISHES = [
     "chapter": 1,
     "knowledge": "用米浆蒸成薄嫩粉皮，包裹虾仁、牛肉等馅料，再淋上酱油，口感柔滑鲜香。",
     "recognition": "白色米皮卷与酱汁",
-    "image": "art/dishes-v1/icons-256/03-changfen.png",
-    "large": "art/dishes-v1/sprites-1024/03-changfen.png"
+    "image": "assets/dishes/icons-256/03-changfen.png",
+    "large": "assets/dishes/sprites-1024/03-changfen.png"
   },
   {
     "id": "04",
@@ -41,8 +41,8 @@ export const DISHES = [
     "chapter": 1,
     "knowledge": "以松软面皮包裹甜咸适中的叉烧馅，口感蓬松香甜，是广式早茶代表点心之一。",
     "recognition": "圆包与裂口红褐馅",
-    "image": "art/dishes-v1/icons-256/04-chashaobao.png",
-    "large": "art/dishes-v1/sprites-1024/04-chashaobao.png"
+    "image": "assets/dishes/icons-256/04-chashaobao.png",
+    "large": "assets/dishes/sprites-1024/04-chashaobao.png"
   },
   {
     "id": "05",
@@ -52,8 +52,8 @@ export const DISHES = [
     "chapter": 1,
     "knowledge": "以薄面皮包裹猪肉、虾仁等馅料蒸制而成，顶部开口，口感鲜香饱满。",
     "recognition": "黄色开口点心",
-    "image": "art/dishes-v1/icons-256/05-shaomai.png",
-    "large": "art/dishes-v1/sprites-1024/05-shaomai.png"
+    "image": "assets/dishes/icons-256/05-shaomai.png",
+    "large": "assets/dishes/sprites-1024/05-shaomai.png"
   },
   {
     "id": "06",
@@ -63,8 +63,8 @@ export const DISHES = [
     "chapter": 2,
     "knowledge": "以嫩豆腐配牛肉末或猪肉末烹制，突出麻、辣、鲜、香、烫等特点，是川菜代表名菜。",
     "recognition": "红色汤汁与白豆腐块",
-    "image": "art/dishes-v1/icons-256/06-mapodoufu.png",
-    "large": "art/dishes-v1/sprites-1024/06-mapodoufu.png"
+    "image": "assets/dishes/icons-256/06-mapodoufu.png",
+    "large": "assets/dishes/sprites-1024/06-mapodoufu.png"
   },
   {
     "id": "07",
@@ -74,8 +74,8 @@ export const DISHES = [
     "chapter": 2,
     "knowledge": "将煮熟的猪肉切片回锅爆炒，配以豆瓣酱、蒜苗等调味，香辣浓郁、肥而不腻。",
     "recognition": "肉片与绿叶配菜",
-    "image": "art/dishes-v1/icons-256/07-huiguorou.png",
-    "large": "art/dishes-v1/sprites-1024/07-huiguorou.png"
+    "image": "assets/dishes/icons-256/07-huiguorou.png",
+    "large": "assets/dishes/sprites-1024/07-huiguorou.png"
   },
   {
     "id": "08",
@@ -85,8 +85,8 @@ export const DISHES = [
     "chapter": 2,
     "knowledge": "以白菜心配高级清汤烹制，看似清淡如水，实则汤味醇厚鲜美，体现川菜精细雅致的一面。",
     "recognition": "浅色汤与整束白菜心",
-    "image": "art/dishes-v1/icons-256/08-kaishuibaicai.png",
-    "large": "art/dishes-v1/sprites-1024/08-kaishuibaicai.png"
+    "image": "assets/dishes/icons-256/08-kaishuibaicai.png",
+    "large": "assets/dishes/sprites-1024/08-kaishuibaicai.png"
   },
   {
     "id": "09",
@@ -96,8 +96,8 @@ export const DISHES = [
     "chapter": 2,
     "knowledge": "鸭肉经腌制、熏制和蒸炸等工序制成，带有独特的樟木与茶叶熏香，外酥里嫩。",
     "recognition": "深色鸭块；与白切鸡明显区分",
-    "image": "art/dishes-v1/icons-256/09-zhangchaya.png",
-    "large": "art/dishes-v1/sprites-1024/09-zhangchaya.png"
+    "image": "assets/dishes/icons-256/09-zhangchaya.png",
+    "large": "assets/dishes/sprites-1024/09-zhangchaya.png"
   },
   {
     "id": "10",
@@ -107,8 +107,8 @@ export const DISHES = [
     "chapter": 2,
     "knowledge": "将多种蔬菜放入泡菜坛中发酵而成，口感酸爽脆嫩，是四川家庭常见的佐餐小菜。",
     "recognition": "多色蔬菜条与小泡菜坛",
-    "image": "art/dishes-v1/icons-256/10-sichuan-shijin-paocai.png",
-    "large": "art/dishes-v1/sprites-1024/10-sichuan-shijin-paocai.png"
+    "image": "assets/dishes/icons-256/10-sichuan-shijin-paocai.png",
+    "large": "assets/dishes/sprites-1024/10-sichuan-shijin-paocai.png"
   },
   {
     "id": "11",
@@ -118,8 +118,8 @@ export const DISHES = [
     "chapter": 3,
     "knowledge": "以整条鲤鱼炸制后浇上糖醋汁，色泽红亮，外酥里嫩，酸甜鲜香。",
     "recognition": "整鱼拱形与亮色酱汁",
-    "image": "art/dishes-v1/icons-256/11-tangcu-liyu.png",
-    "large": "art/dishes-v1/sprites-1024/11-tangcu-liyu.png"
+    "image": "assets/dishes/icons-256/11-tangcu-liyu.png",
+    "large": "assets/dishes/sprites-1024/11-tangcu-liyu.png"
   },
   {
     "id": "12",
@@ -129,8 +129,8 @@ export const DISHES = [
     "chapter": 3,
     "knowledge": "以海参和大葱为主料烧制，突出葱香浓郁、海参软糯鲜美，是鲁菜代表性海味菜肴。",
     "recognition": "深色海参和长葱段",
-    "image": "art/dishes-v1/icons-256/12-congshao-haishen.png",
-    "large": "art/dishes-v1/sprites-1024/12-congshao-haishen.png"
+    "image": "assets/dishes/icons-256/12-congshao-haishen.png",
+    "large": "assets/dishes/sprites-1024/12-congshao-haishen.png"
   },
   {
     "id": "13",
@@ -140,8 +140,8 @@ export const DISHES = [
     "chapter": 3,
     "knowledge": "以蒲菜配浓醇奶汤烹制，汤色乳白、口味鲜醇。",
     "recognition": "乳白汤与浅色蒲菜段",
-    "image": "art/dishes-v1/icons-256/13-naitang-pucai.png",
-    "large": "art/dishes-v1/sprites-1024/13-naitang-pucai.png"
+    "image": "assets/dishes/icons-256/13-naitang-pucai.png",
+    "large": "assets/dishes/sprites-1024/13-naitang-pucai.png"
   },
   {
     "id": "14",
@@ -151,8 +151,8 @@ export const DISHES = [
     "chapter": 3,
     "knowledge": "通常以猪肚尖和鸡胗等脆嫩食材快速爆炒，讲究火候迅疾、口感爽脆。",
     "recognition": "浅色小块与宽口盘",
-    "image": "art/dishes-v1/icons-256/14-youbao-shuangcui.png",
-    "large": "art/dishes-v1/sprites-1024/14-youbao-shuangcui.png"
+    "image": "assets/dishes/icons-256/14-youbao-shuangcui.png",
+    "large": "assets/dishes/sprites-1024/14-youbao-shuangcui.png"
   },
   {
     "id": "15",
@@ -162,8 +162,8 @@ export const DISHES = [
     "chapter": 3,
     "knowledge": "整鸡经炸制、卤煮等工序制成，色泽红润、肉质酥烂、香味浓郁。",
     "recognition": "完整棕色鸡形",
-    "image": "art/dishes-v1/icons-256/15-dezhou-paji.png",
-    "large": "art/dishes-v1/sprites-1024/15-dezhou-paji.png"
+    "image": "assets/dishes/icons-256/15-dezhou-paji.png",
+    "large": "assets/dishes/sprites-1024/15-dezhou-paji.png"
   },
   {
     "id": "16",
@@ -173,8 +173,8 @@ export const DISHES = [
     "chapter": 4,
     "knowledge": "将鳜鱼改刀炸至外形似松鼠，再浇上酸甜卤汁，外酥里嫩、酸甜鲜香",
     "recognition": "展开的鱼肉与颗粒刀花",
-    "image": "art/dishes-v1/icons-256/16-songshu-guiyu.png",
-    "large": "art/dishes-v1/sprites-1024/16-songshu-guiyu.png"
+    "image": "assets/dishes/icons-256/16-songshu-guiyu.png",
+    "large": "assets/dishes/sprites-1024/16-songshu-guiyu.png"
   },
   {
     "id": "17",
@@ -184,8 +184,8 @@ export const DISHES = [
     "chapter": 4,
     "knowledge": "以肥瘦相间的猪肉制成大肉丸慢火清炖，口感松软鲜嫩、汤味醇厚。",
     "recognition": "大圆肉丸与浅汤",
-    "image": "art/dishes-v1/icons-256/17-qingdun-shizitou.png",
-    "large": "art/dishes-v1/sprites-1024/17-qingdun-shizitou.png"
+    "image": "assets/dishes/icons-256/17-qingdun-shizitou.png",
+    "large": "assets/dishes/sprites-1024/17-qingdun-shizitou.png"
   },
   {
     "id": "18",
@@ -195,8 +195,8 @@ export const DISHES = [
     "chapter": 4,
     "knowledge": "将嫩豆腐切成细如发丝的豆腐丝入汤烹制，刀工精细、口感清鲜，体现精湛的刀工技艺。",
     "recognition": "碗中细白丝；区别豆腐块",
-    "image": "art/dishes-v1/icons-256/18-wensi-doufu.png",
-    "large": "art/dishes-v1/sprites-1024/18-wensi-doufu.png"
+    "image": "assets/dishes/icons-256/18-wensi-doufu.png",
+    "large": "assets/dishes/sprites-1024/18-wensi-doufu.png"
   },
   {
     "id": "19",
@@ -206,8 +206,8 @@ export const DISHES = [
     "chapter": 4,
     "knowledge": "以鸭肉经盐腌、复卤等工序制成，皮白肉嫩、咸鲜清香，是南京传统名菜。",
     "recognition": "浅色鸭片；配菜牌突出名称",
-    "image": "art/dishes-v1/icons-256/19-jinling-yanshuiya.png",
-    "large": "art/dishes-v1/sprites-1024/19-jinling-yanshuiya.png"
+    "image": "assets/dishes/icons-256/19-jinling-yanshuiya.png",
+    "large": "assets/dishes/sprites-1024/19-jinling-yanshuiya.png"
   },
   {
     "id": "20",
@@ -217,8 +217,8 @@ export const DISHES = [
     "chapter": 4,
     "knowledge": "以米饭配鸡蛋、虾仁、火腿等多种食材炒制，色彩丰富、颗粒分明、鲜香可口。",
     "recognition": "彩色配料与散开的饭粒",
-    "image": "art/dishes-v1/icons-256/20-yangzhou-chaofan.png",
-    "large": "art/dishes-v1/sprites-1024/20-yangzhou-chaofan.png"
+    "image": "assets/dishes/icons-256/20-yangzhou-chaofan.png",
+    "large": "assets/dishes/sprites-1024/20-yangzhou-chaofan.png"
   },
   {
     "id": "21",
@@ -228,8 +228,8 @@ export const DISHES = [
     "chapter": 5,
     "knowledge": "以鲜虾仁配龙井茶叶炒制，色泽清雅、虾仁鲜嫩，并带有淡淡茶香。",
     "recognition": "白色虾仁与少量茶叶",
-    "image": "art/dishes-v1/icons-256/21-longjing-xiaren.png",
-    "large": "art/dishes-v1/sprites-1024/21-longjing-xiaren.png"
+    "image": "assets/dishes/icons-256/21-longjing-xiaren.png",
+    "large": "assets/dishes/sprites-1024/21-longjing-xiaren.png"
   },
   {
     "id": "22",
@@ -239,8 +239,8 @@ export const DISHES = [
     "chapter": 5,
     "knowledge": "以鲜鱼烹制后浇上糖醋芡汁，鱼肉细嫩，酸甜适口。",
     "recognition": "平放整鱼与褐色酱汁",
-    "image": "art/dishes-v1/icons-256/22-xihu-cuyu.png",
-    "large": "art/dishes-v1/sprites-1024/22-xihu-cuyu.png"
+    "image": "assets/dishes/icons-256/22-xihu-cuyu.png",
+    "large": "assets/dishes/sprites-1024/22-xihu-cuyu.png"
   },
   {
     "id": "23",
@@ -250,8 +250,8 @@ export const DISHES = [
     "chapter": 5,
     "knowledge": "以五花肉加酱油、黄酒等慢火焖制，色泽红亮、酥烂醇香、肥而不腻。",
     "recognition": "方形肉块与小碗",
-    "image": "art/dishes-v1/icons-256/23-dongporou.png",
-    "large": "art/dishes-v1/sprites-1024/23-dongporou.png"
+    "image": "assets/dishes/icons-256/23-dongporou.png",
+    "large": "assets/dishes/sprites-1024/23-dongporou.png"
   },
   {
     "id": "24",
@@ -261,8 +261,8 @@ export const DISHES = [
     "chapter": 5,
     "knowledge": "以鲜嫩春笋加油和酱汁焖制，口感脆嫩鲜甜，突出江南春季时令风味。",
     "recognition": "棕黄色笋段",
-    "image": "art/dishes-v1/icons-256/24-youmen-chunsun.png",
-    "large": "art/dishes-v1/sprites-1024/24-youmen-chunsun.png"
+    "image": "assets/dishes/icons-256/24-youmen-chunsun.png",
+    "large": "assets/dishes/sprites-1024/24-youmen-chunsun.png"
   },
   {
     "id": "25",
@@ -272,8 +272,8 @@ export const DISHES = [
     "chapter": 5,
     "knowledge": "以西湖莼菜配高汤烹制，口感滑嫩清鲜，是富有杭州地方特色的传统汤菜。",
     "recognition": "清汤与小片绿色莼菜",
-    "image": "art/dishes-v1/icons-256/25-xihu-chuncaitang.png",
-    "large": "art/dishes-v1/sprites-1024/25-xihu-chuncaitang.png"
+    "image": "assets/dishes/icons-256/25-xihu-chuncaitang.png",
+    "large": "assets/dishes/sprites-1024/25-xihu-chuncaitang.png"
   },
   {
     "id": "26",
@@ -283,8 +283,8 @@ export const DISHES = [
     "chapter": 0,
     "knowledge": "米饭由大米加水蒸煮而成，是日常餐桌上的常见主食。",
     "recognition": "小碗中隆起的纯白米饭；没有彩色配料",
-    "image": "art/dishes-v1/icons-256/26-mifan.png",
-    "large": "art/dishes-v1/sprites-1024/26-mifan.png"
+    "image": "assets/dishes/icons-256/26-mifan.png",
+    "large": "assets/dishes/sprites-1024/26-mifan.png"
   },
   {
     "id": "27",
@@ -294,8 +294,8 @@ export const DISHES = [
     "chapter": 0,
     "knowledge": "清炒青菜以绿叶蔬菜快速炒制，保留鲜绿的色泽与清爽的口感。",
     "recognition": "盘中饱满的绿色菜叶与浅绿菜梗；没有汤底",
-    "image": "art/dishes-v1/icons-256/27-qingchao-qingcai.png",
-    "large": "art/dishes-v1/sprites-1024/27-qingchao-qingcai.png"
+    "image": "assets/dishes/icons-256/27-qingchao-qingcai.png",
+    "large": "assets/dishes/sprites-1024/27-qingchao-qingcai.png"
   },
   {
     "id": "28",
@@ -305,8 +305,8 @@ export const DISHES = [
     "chapter": 0,
     "knowledge": "蒸蛋以鸡蛋加水调匀后蒸制，成品细嫩柔滑。",
     "recognition": "小碗中平滑完整的淡黄色蛋羹表面",
-    "image": "art/dishes-v1/icons-256/28-zhengdan.png",
-    "large": "art/dishes-v1/sprites-1024/28-zhengdan.png"
+    "image": "assets/dishes/icons-256/28-zhengdan.png",
+    "large": "assets/dishes/sprites-1024/28-zhengdan.png"
   },
   {
     "id": "29",
@@ -316,8 +316,8 @@ export const DISHES = [
     "chapter": 0,
     "knowledge": "萝卜汤以萝卜加水或高汤煮制，是常见的家常汤品。",
     "recognition": "清汤中清晰可见的大块白萝卜；区别细白丝与蒲菜段",
-    "image": "art/dishes-v1/icons-256/29-luobotang.png",
-    "large": "art/dishes-v1/sprites-1024/29-luobotang.png"
+    "image": "assets/dishes/icons-256/29-luobotang.png",
+    "large": "assets/dishes/sprites-1024/29-luobotang.png"
   }
 ];
 
