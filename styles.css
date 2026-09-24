@@ -184,3 +184,302 @@ ruby.reading-hint rt{font-family:system-ui,sans-serif;font-size:max(.45em,10px);
   .change-cancel-mark .icon{width:20px;height:20px}
   .combined-changes .change-instructions{font-size:19px}
 }
+
+/* Motion: gentle entrances, phase changes and small celebrations. The "界面动效" setting
+   (.reduce-motion) and prefers-reduced-motion switch every animation below off. Entrances only
+   fill backwards, so finished animations never hold styles over hover states. */
+:root{--ease-out:cubic-bezier(.2,.8,.25,1);--ease-back:cubic-bezier(.3,1.45,.5,1)}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}}
+@keyframes fade{from{opacity:0}}
+@keyframes pop{0%{opacity:0;transform:scale(.5)}60%{opacity:1;transform:scale(1.1)}100%{transform:none}}
+@keyframes settle{from{opacity:.45;transform:translateY(8px) scale(.96)}}
+@keyframes plate{from{opacity:0;transform:translateY(-14px) scale(.75)}}
+@keyframes bob{50%{transform:translateY(-3px)}}
+@keyframes hop{0%,100%{transform:none}30%{transform:translateY(-12px) scale(1.03,.97)}55%{transform:scale(1.04,.95)}75%{transform:translateY(-4px)}}
+@keyframes tilt{0%,100%{transform:none}30%{transform:rotate(-8deg)}65%{transform:rotate(5deg)}}
+@keyframes nudge{0%,100%{transform:none}20%,60%{transform:translateX(-4px)}40%,80%{transform:translateX(4px)}}
+@keyframes spin{to{transform:rotate(1turn)}}
+@keyframes glow{50%{opacity:1}}
+@keyframes grow{from{transform:scaleX(0)}}
+@keyframes drop{from{opacity:0;transform:translateY(-30px)}}
+
+/* Screen entrances. The page parts arrive in reading order; a re-render during the entrance
+   continues from the same point through the negative --age offset set by render(). */
+.screen-enter .page:not(.game-page,.home-page)>*{animation:rise .55s var(--ease-out) backwards;animation-delay:calc(var(--age,0ms) + var(--i,0)*80ms)}
+.page>:nth-child(2){--i:1}.page>:nth-child(3){--i:2}.page>:nth-child(4){--i:3}.page>:nth-child(n+5){--i:4}
+.screen-enter :is(.hero-line,.hero-actions,.section-heading,.chapter-tabs,.chapter-intro,.save-transfer,.home-bottom){animation:rise .6s var(--ease-out) backwards;animation-delay:calc(var(--age,0ms) + var(--in,0ms))}
+.hero-line+.hero-line{--in:90ms}.hero-actions{--in:200ms}.section-heading{--in:240ms}.chapter-tabs{--in:300ms}.chapter-intro{--in:360ms}.save-transfer{--in:640ms}.home-bottom{--in:700ms}
+.screen-enter .hero-art{animation:artIn 1s var(--ease-out) backwards;animation-delay:var(--age,0ms)}
+@keyframes artIn{from{opacity:0;transform:scale(1.03)}}
+.screen-enter .level-card,#chapter-panel[data-fresh] .level-card{animation:rise .5s var(--ease-out) backwards;animation-delay:calc(var(--age,0ms) + var(--base,400ms) + var(--n,0)*55ms)}
+#chapter-panel[data-fresh]{--base:60ms}
+#chapter-panel[data-fresh] .chapter-intro{animation:fade .4s ease backwards;animation-delay:var(--age,0ms)}
+.screen-enter .chapter-tab::after{animation:grow .8s var(--ease-out) backwards;animation-delay:calc(var(--age,0ms) + 480ms)}
+.screen-enter .reference-dish{animation:rise .45s var(--ease-out) backwards;animation-delay:calc(var(--age,0ms) + 200ms + var(--n,0)*40ms)}
+.screen-enter .collectible,.gallery-grid[data-fresh] .collectible{animation:rise .45s var(--ease-out) backwards;animation-delay:calc(var(--age,0ms) + var(--base,280ms) + min(var(--n,0),12)*35ms)}
+.gallery-grid[data-fresh]{--base:0ms}
+.screen-enter .badge-item{animation:pop .5s var(--ease-back) backwards;animation-delay:calc(var(--age,0ms) + 160ms + var(--n,0)*60ms)}
+.screen-enter .badge-halo>img{animation:badgeIn .8s var(--ease-back) backwards;animation-delay:calc(var(--age,0ms) + 150ms)}
+@keyframes badgeIn{from{opacity:0;transform:scale(.4) rotate(-18deg)}}
+.screen-enter .chapter-banquet-mini button{animation:rise .5s var(--ease-out) backwards;animation-delay:calc(var(--age,0ms) + 380ms + var(--n,0)*70ms)}
+.screen-enter .feast-dishes>button{animation:plate .5s var(--ease-back) backwards;animation-delay:calc(var(--age,0ms) + 360ms + var(--col,0)*70ms + var(--n,0)*40ms)}
+.screen-enter .game-top{animation:fade .35s ease backwards;animation-delay:var(--age,0ms)}
+.paused-page>.panel{animation:rise .45s var(--ease-out) backwards}
+.quiz-feedback:not(:empty){animation:rise .35s var(--ease-out)}
+
+/* Small, steady touches: characters breathe, arrows lead on, the next level glows softly. */
+.host-avatar img,.brief-guide>img,.knowledge-speaker>img,.character-portrait img,.reward-card>img{animation:bob 3.4s ease-in-out infinite}
+.friend-portraits button:hover img,.character-switcher button:hover img,.badge-item.unlocked:hover img{animation:hop .6s var(--ease-out)}
+button .icon-arrow{transition:transform .2s var(--ease-out)}
+button:not(:disabled):hover .icon-arrow{transform:translateX(3px)}
+.btn.primary:not(:disabled):hover{transform:translateY(-1px)}
+.btn:not(:disabled):active,.btn.primary:not(:disabled):active{transform:translateY(1px)}
+.level-card.current{animation:currentGlow 3s ease-in-out infinite}
+.screen-enter .level-card.current,#chapter-panel[data-fresh] .level-card.current{animation:rise .5s var(--ease-out) backwards,currentGlow 3s ease-in-out 1.2s infinite;animation-delay:calc(var(--age,0ms) + var(--base,400ms) + var(--n,0)*55ms),1.2s}
+@keyframes currentGlow{50%{box-shadow:0 0 0 4px #a3b6844d,0 10px 24px #5c6f3b14}}
+.collectible>img,.reference-dish img,.feast-dishes>button img,.decor-spot img{transition:transform .25s var(--ease-out)}
+.collectible:hover>img,.reference-dish:hover img{transform:translateY(-4px) scale(1.03)}
+.feast-dishes>button:hover img{transform:translateY(-4px)}
+.chapter-tab{position:relative;overflow:hidden}
+.chapter-tab::before,.chapter-tab::after{content:'';position:absolute;left:14px;right:14px;bottom:6px;height:3px;border-radius:3px;background:#e5e7d6;pointer-events:none}
+.chapter-tab::after{background:#a4b78a;transform-origin:left;transform:scaleX(var(--p,0))}
+.chapter-tab.active::before{background:#ffffff24}.chapter-tab.active::after{background:#dcc98e}
+.chapter-tab.locked:not(.active) .chapter-symbol{opacity:.5}
+
+/* Modals rise in when they open; swapping content inside an open modal stays calm. */
+.modal-backdrop.opening{animation:fade .25s ease backwards}
+.modal-backdrop.opening>.modal{animation:modalIn .38s var(--ease-out) backwards}
+@keyframes modalIn{from{opacity:0;transform:translateY(20px) scale(.97)}}
+.modal-backdrop.opening :is(.detail-image,.knowledge-dish>img,.modal-badge){animation:dishIn .75s var(--ease-back) backwards;animation-delay:.12s}
+@keyframes dishIn{from{opacity:0;transform:translateY(12px) scale(.82) rotate(-6deg)}}
+.modal-backdrop.opening .knowledge-speaker{animation:rise .5s var(--ease-out) backwards;animation-delay:.22s}
+.modal-backdrop:not(.opening) .character-portrait{animation:portraitIn .4s var(--ease-out)}
+@keyframes portraitIn{from{opacity:0;transform:translateY(8px) scale(.94)}}
+
+/* Living scene: steam, lantern light, twinkles and a drifting leaf over the static illustration. */
+.hero-art>img,.banquet-view>img{display:block}
+.scene-motion{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;will-change:transform}
+.scene-motion *{transform-box:fill-box;transform-origin:center}
+.scene-motion .wisp{opacity:0;transform-origin:50% 100%;animation:wisp 4.2s ease-out infinite;animation-delay:var(--d,0s)}
+@keyframes wisp{0%{opacity:0;transform:translateY(6px) scaleY(.7)}30%{opacity:.85}100%{opacity:0;transform:translateY(-34px) scaleY(1.2)}}
+.scene-motion .lantern-glow{opacity:.55;animation:flicker 4.6s ease-in-out infinite;animation-delay:var(--d,0s)}
+@keyframes flicker{0%,100%{opacity:.5}30%{opacity:.9}45%{opacity:.62}70%{opacity:.8}}
+.scene-motion .sun-glow{animation:sunGlow 7s ease-in-out infinite}
+@keyframes sunGlow{0%,100%{opacity:.5;transform:scale(.95)}50%{opacity:1;transform:scale(1.05)}}
+.scene-motion .twinkle{opacity:0;animation:twinkle 4s ease-in-out infinite;animation-delay:var(--d,0s)}
+@keyframes twinkle{0%,62%,100%{opacity:0;transform:scale(.3)}78%{opacity:1;transform:scale(1) rotate(25deg)}}
+.scene-motion .leaf{opacity:0;animation:leafFall 15s linear -3s infinite}
+@keyframes leafFall{0%{opacity:0;transform:none}5%{opacity:.95}22%{transform:translate(-16px,70px) rotate(90deg)}40%{transform:translate(8px,150px) rotate(170deg)}58%{transform:translate(-12px,235px) rotate(250deg)}70%{opacity:.9;transform:translate(0,300px) rotate(300deg)}76%,100%{opacity:0;transform:translate(0,300px) rotate(300deg)}}
+.banquet-view .scene-motion{opacity:.8}
+
+/* Game phases arrive quickly: remembered dishes are legible from the first frames. */
+.game-surface[data-fresh] .stage-heading h2{animation:titleIn .4s var(--ease-out) backwards;animation-delay:var(--age,0ms)}
+@keyframes titleIn{from{opacity:0;transform:translateX(-10px)}}
+.game-surface[data-fresh] .order-paper{animation:paperIn .35s var(--ease-out) backwards;animation-delay:var(--age,0ms)}
+@keyframes paperIn{from{transform:translateY(10px)}}
+.game-surface[data-fresh] :is(.order-paper,.serve-slots) .order-slot{animation:settle .22s var(--ease-out) backwards;animation-delay:calc(var(--age,0ms) + var(--n,0)*25ms)}
+.game-surface[data-fresh] .change-badge{display:inline-block;animation:pop .45s var(--ease-back) backwards;animation-delay:var(--age,0ms)}
+.game-surface[data-fresh] .change-instructions>span{animation:settle .3s var(--ease-out) backwards;animation-delay:var(--age,0ms)}
+.game-surface[data-fresh] .change-slot{animation:settle .3s var(--ease-out) backwards;animation-delay:calc(var(--age,0ms) + var(--n,0)*30ms)}
+.game-surface[data-fresh] .change-slot.is-active>img{animation:dropIn .45s var(--ease-back) backwards;animation-delay:var(--age,0ms)}
+@keyframes dropIn{from{transform:translateY(-12px) scale(.8)}}
+.game-surface[data-fresh] .change-cancel-mark{animation:stamp .4s var(--ease-back) backwards;animation-delay:var(--age,0ms)}
+@keyframes stamp{from{opacity:.4;transform:scale(1.4) rotate(-12deg)}}
+.change-slot.is-active::after{content:'';position:absolute;inset:-2px;border-radius:14px;box-shadow:0 0 0 5px #d5b56c55,0 8px 20px #8a723a1f;opacity:0;pointer-events:none;animation:glow 1.6s ease-in-out .35s infinite}
+.change-slot.is-removed::after{box-shadow:0 0 0 5px #c49a7a40}
+.game-surface[data-fresh] .closed-menu{transform-origin:0 50%;animation:bookClose .55s var(--ease-out) backwards;animation-delay:var(--age,0ms)}
+@keyframes bookClose{from{opacity:.4;transform:perspective(500px) rotateY(-80deg)}}
+.quiet-dots{display:flex;justify-content:center;align-items:center;gap:12px;height:26px}
+.quiet-dots i{width:8px;height:8px;border-radius:50%;background:#b7bea1;animation:dotWave 1.1s ease-in-out infinite}
+.quiet-dots i:nth-child(2){animation-delay:.15s}.quiet-dots i:nth-child(3){animation-delay:.3s}
+@keyframes dotWave{0%,60%,100%{transform:none;opacity:.55}30%{transform:translateY(-7px);opacity:1}}
+.game-surface[data-fresh] .shelf-heading{animation:fade .3s ease backwards;animation-delay:var(--age,0ms)}
+.game-surface[data-fresh] .dish-shelf .dish-tile{animation:settle .25s var(--ease-out) backwards;animation-delay:calc(var(--age,0ms) + var(--n,0)*15ms)}
+.order-slot.fx-fill>img{animation:plate .42s var(--ease-back) backwards;animation-delay:var(--fx,0ms)}
+.order-slot.fx-fill>span:not(.slot-number){animation:fade .3s ease backwards;animation-delay:calc(var(--fx,0ms) + 80ms)}
+.order-slot.fx-clear>.empty-plate{animation:plateOut .35s var(--ease-out) backwards;animation-delay:var(--fx,0ms)}
+@keyframes plateOut{from{opacity:0;transform:scale(1.15)}}
+.dish-tile.fx-pick .selected-mark{animation:pop .4s var(--ease-back) backwards}
+.dish-tile.fx-pick img{animation:pick .35s var(--ease-out)}
+@keyframes pick{40%{transform:scale(.88)}}
+.dish-tile:not(:disabled):active{transform:scale(.97)}
+.submit-order.ready{animation:ready 1.8s ease-out infinite}
+@keyframes ready{0%{box-shadow:0 0 0 0 #35593f2e}70%,100%{box-shadow:0 0 0 9px #35593f00}}
+.game-surface[data-fresh] .feedback-banner{animation:bannerIn .4s var(--ease-out) backwards;animation-delay:var(--age,0ms)}
+@keyframes bannerIn{from{opacity:.3;transform:translateY(-8px) scale(.98)}}
+.game-surface[data-fresh] .feedback-banner>.icon{animation:pop .5s var(--ease-back) backwards;animation-delay:calc(var(--age,0ms) + 120ms)}
+.game-surface[data-fresh] .feedback-row{animation:settle .3s var(--ease-out) backwards;animation-delay:calc(var(--age,0ms) + var(--r,0)*60ms)}
+.feedback-row~.feedback-row{--r:1}
+.game-surface[data-fresh] .feedback-row .order-slot.wrong{animation:nudge .5s ease-in-out backwards;animation-delay:calc(var(--age,0ms) + 420ms)}
+.game-surface[data-fresh] .wrong-mark{animation:pop .4s var(--ease-back) backwards;animation-delay:calc(var(--age,0ms) + 380ms)}
+.feedback-banner{position:relative}
+.sparks{position:absolute;left:34px;top:50%;width:0;height:0;pointer-events:none}
+.sparks i{position:absolute;left:-5px;top:-5px;width:10px;height:10px;background:#d6b762;clip-path:polygon(50% 0,62% 38%,100% 50%,62% 62%,50% 100%,38% 62%,0 50%,38% 38%);opacity:0}
+.game-surface[data-fresh] .sparks i{animation:spark .8s var(--ease-out) backwards;animation-delay:calc(var(--age,0ms) + 180ms)}
+.sparks i:nth-child(1){--x:-26px;--y:-24px}.sparks i:nth-child(2){--x:26px;--y:-24px}.sparks i:nth-child(3){--x:36px;--y:8px}.sparks i:nth-child(4){--x:-32px;--y:14px}.sparks i:nth-child(5){--x:4px;--y:30px}
+@keyframes spark{0%{opacity:0;transform:scale(.3)}30%{opacity:1}100%{opacity:0;transform:translate(var(--x),var(--y)) scale(1.1) rotate(45deg)}}
+.lamp .icon{transform-origin:50% 8%}
+.lamp.current .icon{animation:sway 3s ease-in-out infinite}
+@keyframes sway{0%,100%{transform:rotate(-5deg)}50%{transform:rotate(5deg)}}
+.lamp.just-lit .icon{animation:lampOn 1s var(--ease-out) backwards;animation-delay:var(--lit,0ms)}
+.lamp.just-lit.current .icon{animation:lampOn 1s var(--ease-out) backwards,sway 3s ease-in-out infinite;animation-delay:var(--lit,0ms),calc(var(--lit,0ms) + 1s)}
+@keyframes lampOn{0%{transform:scale(.85)}35%{transform:scale(1.3);filter:drop-shadow(0 0 10px #f3cf73)}100%{transform:none}}
+.host-avatar{transform-origin:50% 100%}
+.game-surface[data-fresh].perfect .host-avatar{animation:hop .8s var(--ease-out) backwards;animation-delay:calc(var(--age,0ms) + 100ms)}
+.game-surface[data-fresh].miss .host-avatar{animation:tilt .8s ease-in-out backwards;animation-delay:calc(var(--age,0ms) + 100ms)}
+.timer b{display:inline-block;transition:color .3s}
+.timer{transition:color .3s}
+.game-surface.hurry .timer{color:#ad6f4d}
+.game-surface.hurry .timer b{animation:beat 1s ease-in-out infinite}
+@keyframes beat{0%,100%{transform:none}12%{transform:scale(1.14)}}
+.phase-bar i{transition:background-color .35s}
+.game-surface[data-phase=change] .phase-bar i{background:#c6a462}
+.game-surface[data-phase=wait] .phase-bar i{background:#b4bd99}
+.game-surface[data-phase=feedback] .phase-bar i{background:#c2cdab}
+.game-surface.hurry .phase-bar i{background:#cb8e62}
+
+/* Result and chapter celebrations start once the knowledge card is closed. */
+.big-score{font-variant-numeric:tabular-nums}
+.stars>span{display:inline-block;position:relative}
+.celebrate.passed .result-heading h1{animation:pop .6s var(--ease-back) backwards}
+.celebrate.passed .result-heading .stars>span{animation:starPop .55s var(--ease-back) backwards;animation-delay:calc(260ms + var(--s,0)*170ms)}
+@keyframes starPop{0%{opacity:0;transform:scale(.2) rotate(-40deg)}70%{opacity:1;transform:scale(1.25) rotate(8deg)}100%{transform:none}}
+.celebrate.passed .result-heading .stars>.earned::after{content:'';position:absolute;left:50%;top:50%;width:1.5em;height:1.5em;margin:-.75em 0 0 -.75em;border-radius:50%;border:2px solid #dcbc6a;opacity:0;animation:ring .7s ease-out;animation-delay:calc(380ms + var(--s,0)*170ms)}
+@keyframes ring{from{opacity:.9;transform:scale(.3)}to{opacity:0;transform:scale(1.5)}}
+.celebrate .score-metrics>div{animation:rise .5s var(--ease-out) backwards;animation-delay:calc(900ms + var(--m,0)*100ms)}
+.score-metrics>div+div{--m:1}
+.reward-card{position:relative;overflow:hidden}
+.reward-dish{position:relative;display:grid;place-items:center;isolation:isolate}
+.reward-dish>img{height:165px;width:210px;margin:12px 0;animation:bob 3.6s ease-in-out infinite}
+.reward-rays{position:absolute;left:50%;top:50%;width:250px;height:250px;margin:-125px 0 0 -125px;z-index:-1;border-radius:50%;background:repeating-conic-gradient(#f0dca500 0deg 8deg,#f0dca5 8deg 16deg);-webkit-mask:radial-gradient(closest-side,#000 30%,transparent);mask:radial-gradient(closest-side,#000 30%,transparent);opacity:.45;animation:spin 48s linear infinite}
+.celebrate.passed .reward-dish{animation:pop .7s var(--ease-back) backwards;animation-delay:.3s}
+.celebrate.failed .reward-card>img{animation:hop .8s var(--ease-out) .3s backwards,bob 3.4s ease-in-out 1.1s infinite}
+.badge-halo{position:relative}
+.badge-halo>img{position:relative}
+.halo-rays{position:absolute;inset:-22px;border-radius:50%;background:repeating-conic-gradient(#ead9a300 0deg 9deg,#ead9a3 9deg 18deg);-webkit-mask:radial-gradient(closest-side,#000 40%,transparent);mask:radial-gradient(closest-side,#000 40%,transparent);opacity:.5;animation:spin 60s linear infinite}
+
+/* Brief: the dish this level awards is marked; the guide column keeps to its content. */
+.brief-guide{align-self:start}
+.brief-guide>img{width:104px;height:104px}
+.reference-dish{position:relative}
+.reference-dish.featured{background:#f5eedb;border-color:#e4d3a4}
+.reference-dish.featured:hover{background:#f1ead3;border-color:#d4bf86}
+.feature-tag{position:absolute;top:8px;left:8px;padding:1px 9px;border-radius:999px;background:#ecdfb9;color:#7b6230;font-size:11px;font-weight:600;line-height:1.7;letter-spacing:.04em}
+
+/* Remembering is the heart of the game: the order paper shows each dish larger. */
+.order-paper .order-slot{min-height:170px}
+.order-paper .order-slot>img{height:118px;max-width:172px}
+.order-paper .order-slot>span:not(.slot-number):not(.empty-plate){font-size:14px}
+
+/* Save controls sit in one quiet row below the levels. */
+.save-transfer{display:flex;align-items:center;flex-wrap:wrap;gap:12px 16px;margin-top:30px;padding:14px 18px;border:1px solid #e3e3d0;border-radius:14px;background:#f2f0e4}
+.save-icon{display:grid;place-items:center;width:40px;height:40px;border-radius:11px;background:#e4e9d5;color:#617a4e;flex-shrink:0}
+.save-transfer .save-copy{flex:1 1 220px;margin:0;font-size:12px;line-height:1.7;color:var(--muted)}
+.save-copy b{display:block;font-size:14px;color:var(--ink);font-weight:600}
+.save-actions{gap:10px}
+.save-actions .btn.small{min-height:42px;padding:8px 18px;font-size:13px}
+.save-transfer #save-status{flex-basis:100%;margin:0;font-size:12px}
+
+/* Banquet: decorations hang in the open sky beside the shop instead of covering it. */
+.banquet-view{position:relative;overflow:hidden}
+.decor-spot{position:relative}
+.decor-spot.placed{border-style:solid;border-color:#cfd6bd;background:#fbfaefe6}
+.decor-spot:hover{border-color:#7f9565;background:#fffdf2}
+.decor-spot:hover img{transform:scale(1.06)}
+@keyframes hang{0%,100%{transform:rotate(-1.4deg)}50%{transform:rotate(1.4deg)}}
+@media(min-width:901px){
+  .decor-spots{top:0;left:34px;right:auto;z-index:2;gap:16px;justify-content:flex-start;align-items:flex-start}
+  .decor-spot{width:112px;min-height:124px;margin-top:34px;transform-origin:50% -34px;animation:hang 6s ease-in-out infinite;animation-delay:calc(var(--n,0)*-2.1s)}
+  .decor-spot:nth-child(2){margin-top:56px;transform-origin:50% -56px}
+  .decor-spot:nth-child(3){margin-top:40px;transform-origin:50% -40px}
+  .decor-spot::before{content:'';position:absolute;left:50%;bottom:100%;width:2px;height:80px;margin-left:-1px;border-radius:1px;background:#b3a27e}
+  .screen-enter .decor-spot{animation:drop .8s var(--ease-back) backwards,hang 6s ease-in-out infinite;animation-delay:calc(var(--age,0ms) + 200ms + var(--n,0)*120ms),calc(var(--n,0)*-2.1s)}
+  .feast-dishes>button{width:72px;height:70px}
+}
+@media(max-width:900px){
+  .banquet-scene{min-height:0}
+  .decor-spots{position:relative;top:auto;left:auto;right:auto;justify-content:center;gap:12px;padding:18px 12px 4px}
+  .banquet-backdrop{height:340px}
+  .screen-enter .decor-spot{animation:drop .7s var(--ease-back) backwards;animation-delay:calc(var(--age,0ms) + 200ms + var(--n,0)*110ms)}
+}
+
+/* Readability: the smallest labels and faintest text move up a step. */
+.eyebrow{font-size:12px;letter-spacing:.12em;color:#7f886f}
+.nav-link i{font-size:11px}
+.chapter-tab small{font-size:11px;color:#8b927b}
+.chapter-tab.active small{color:#c9d3bb}
+.chapter-label{font-size:12px}
+.chapter-reward{font-size:11px}.chapter-reward b{font-size:12px}
+.level-top{font-size:12px;color:#7f8770}
+.review-tag{font-size:11px;padding:1px 7px}
+.level-bottom{font-size:11px;color:#858c75}
+.level-bottom b{font-size:12px}
+.level-card>strong{font-size:14px}
+.collection-teaser small,.collection-teaser em{font-size:12px}
+.brief-meta{font-size:12px}
+.paper-title{font-size:13px}
+.order-slot>span:not(.slot-number):not(.empty-plate){font-size:12px}
+.order-slot.filled>span:not(.slot-number){color:#56644b}
+.slot-number{width:20px;height:20px;font-size:11px}
+.order-slot>small{font-size:11px;color:#8f9a7c}
+.change-badge{font-size:12px}
+.shelf-heading small{font-size:12px}
+.lamp small{font-size:10px}
+.feedback-row h4{font-size:12px;color:#7a8568}
+.wrong-mark{top:6px;right:6px;padding:1px 6px;border-radius:4px;font-size:11px;font-weight:600;line-height:1.5}
+.score-metrics span{font-size:12px}
+.reward-card p,.result-review p,.knowledge-quiz p{font-size:12px}
+.collection-count small{font-size:12px}
+.badge-item>small{font-size:11px}
+.filter-tabs>button,.search-box input{font-size:13px}
+.collectible-top,.collectible>small{font-size:11px;color:#8b927b}
+.collectible-bottom{font-size:11px;color:#7f8c6b}
+.decor-spot>small{font-size:11px}
+.feast-label{font-size:12px}
+.feast-dishes>small{font-size:11px}
+.banquet-bottom>span{font-size:12px}
+.detail-tag{font-size:11px}
+.detail-note{font-size:12px}
+.decoration-options b{font-size:12px}
+.knowledge-earned,.knowledge-speaker>div>span{font-size:12px}
+.character-switcher span{font-size:11px}
+.rules-details p{font-size:12px}
+#toast{font-size:13px}
+@media(max-width:900px){.chapter-tab small{font-size:10px}.order-paper .order-slot{min-height:150px}.order-paper .order-slot>img{height:100px}}
+@media(max-width:650px){
+  .chapter-tab{padding:10px 3px 14px}
+  .chapter-tab small{display:none}
+  .chapter-tab b{font-size:10px}
+  .chapter-tab::before,.chapter-tab::after{left:10px;right:10px;bottom:6px}
+  .game-top .eyebrow{font-size:10px;letter-spacing:.06em}
+  .reward-card .eyebrow{font-size:10px;letter-spacing:.08em}
+  .lamp small{font-size:9px}
+  .paper-title{font-size:11px}
+  .order-paper .order-slot{min-height:126px}
+  .order-paper .order-slot>img{height:86px}
+  .order-paper .order-slot>span:not(.slot-number):not(.empty-plate){font-size:11px}
+  .serve-slots .order-slot>span:not(.slot-number):not(.empty-plate),.feedback-row .order-slot>span:not(.slot-number):not(.empty-plate){font-size:10px}
+  .slot-number{width:17px;height:17px;font-size:10px}
+  .wrong-mark{top:4px;right:4px;padding:0 4px;font-size:10px}
+  .feature-tag{top:5px;left:5px;padding:0 6px;font-size:10px}
+  .sparks{left:24px}
+  .score-metrics span,.score-metrics small{font-size:10px}
+  .reward-dish>img{height:120px;width:150px;margin:8px 0}
+  .reward-rays{width:190px;height:190px;margin:-95px 0 0 -95px}
+  .badge-item span{font-size:10px}
+  .badge-item small{font-size:9px}
+  .collectible-top,.collectible>small,.collectible-bottom{font-size:10px}
+  .chapter-banquet-mini button{font-size:10px}
+  .decor-spot>small{font-size:10px}
+  .banquet-scene{min-height:0}
+  .decor-spots{gap:8px;padding:14px 10px 2px}
+  .banquet-backdrop{height:260px;object-position:right bottom}
+  .save-transfer{padding:14px}
+  .save-actions{width:100%}
+  .save-actions .btn{flex:1;min-height:44px}
+}
+
+/* Reduced motion also covers pseudo-elements and removes the decorative scene layer. */
+.reduce-motion *::before,.reduce-motion *::after{animation:none!important;transition:none!important}
+.reduce-motion .scene-motion{display:none}
+@media(prefers-reduced-motion:reduce){.scene-motion{display:none}}
