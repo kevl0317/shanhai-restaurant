@@ -24,6 +24,8 @@ npm run build
 
 将生成的 `dist/` 目录完整上传到静态托管服务；入口为 `index.html`，无需数据库或应用服务器。托管平台配置：构建命令 `npm run build`，发布目录 `dist`。构建不会自动发布。
 
+推送到 `main` 分支后，`.github/workflows/pages.yml` 会自动构建并发布到 GitHub Pages：<https://kevl0317.github.io/shanhai-restaurant/>。首次使用需在仓库 Settings → Pages 中将 Source 设为 “GitHub Actions”。
+
 `npm run preview` 可在本机检查构建结果。构建会重新生成 `dist/`，请勿在其中手工修改文件。
 
 ## 目录
